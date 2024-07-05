@@ -1,0 +1,1001 @@
+Date,TransactionID,ProductID,Quantity,UnitPrice,StoreLocation,PaymentType,PromotionApplied,Weather,Temperature,StaffPerformanceRating,CustomerFeedback,DeliveryTime_min,OrderType,CustomerID,StaffID,DayOfWeek,TotalSales
+2023-01-01 00:00:00,0,0,2,12.53230415,South,Cash,True,Rainy,20.65491393,Poor,Neutral,30,In Store,0,0,Sunday,25.0646083
+2023-01-01 01:00:00,1,1,1,7.083069896,South,Cash,False,Rainy,23.54949697,Average,Positive,33,In Store,1,1,Sunday,7.083069896
+2023-01-01 02:00:00,2,2,5,6.7360641,North,Cash,True,Rainy,27.154342182855554,Excellent,unknown,43,Phone Order,2,2,Sunday,33.6803205
+2023-01-01 03:00:00,3,3,2,7.314823479,North,Cash,False,Cloudy,20.13748325,Poor,Positive,32,Online Order,3,3,Sunday,14.62964696
+2023-01-01 04:00:00,4,4,1,7.57772722,East,Credit Card,True,Cloudy,23.02098654,Good,Neutral,58,In Store,4,4,Sunday,7.57772722
+2023-01-01 05:00:00,5,1,2,14.56815639,West,Cash,True,Rainy,27.154342182855554,Poor,Neutral,30,Phone Order,5,5,Sunday,29.13631278
+2023-01-01 06:00:00,6,1,3,16.11471875,North,Credit Card,False,Cloudy,29.2010277,Excellent,unknown,15,In Store,6,6,Sunday,48.34415626
+2023-01-01 07:00:00,7,3,5,12.94987284,West,Online,False,Sunny,27.154342182855554,Average,Positive,16,Online Order,7,7,Sunday,64.74936422
+2023-01-01 08:00:00,8,3,4,17.43526599,East,Cash,True,Rainy,27.154342182855554,Poor,Neutral,29,Phone Order,8,8,Sunday,69.74106395
+2023-01-01 09:00:00,9,5,2,19.8689484,West,Credit Card,False,Rainy,20.42287011,Average,Neutral,53,In Store,9,9,Sunday,39.7378968
+2023-01-01 10:00:00,10,2,3,17.30018944,South,Online,False,Cloudy,27.154342182855554,Good,Neutral,42,In Store,10,10,Sunday,51.90056831
+2023-01-01 11:00:00,11,3,4,15.42323561,West,Online,False,Rainy,33.22228729,Poor,Positive,15,In Store,11,11,Sunday,61.69294242
+2023-01-01 12:00:00,12,6,4,12.98739049,East,Online,True,Sunny,26.23870481,Poor,Positive,19,Online Order,12,12,Sunday,51.94956197
+2023-01-01 13:00:00,13,7,2,11.73279608,East,Credit Card,False,Cloudy,30.80500054,Good,Negative,56,Phone Order,13,13,Sunday,23.46559215
+2023-01-01 14:00:00,14,4,1,6.265885708,East,Cash,False,Cloudy,33.77427553,Good,Positive,36,Phone Order,14,14,Sunday,6.265885708
+2023-01-01 15:00:00,15,2,2,10.99053123,West,Cash,True,Rainy,26.12060692,Good,Neutral,50,Phone Order,15,15,Sunday,21.98106245
+2023-01-01 16:00:00,16,6,3,18.65201955,South,Credit Card,False,Rainy,22.86916057,Excellent,Negative,27,In Store,16,16,Sunday,55.95605866
+2023-01-01 17:00:00,17,0,4,17.12033945,North,Cash,False,Rainy,27.75676896,Excellent,Positive,15,Phone Order,17,17,Sunday,68.48135779
+2023-01-01 18:00:00,18,3,2,8.240770475,South,Credit Card,True,Cloudy,33.62125531,Poor,Positive,30,In Store,18,18,Sunday,16.48154095
+2023-01-01 19:00:00,19,3,1,11.99911677,West,Cash,True,Rainy,32.06561621,Poor,Positive,55,Online Order,19,19,Sunday,11.99911677
+2023-01-01 20:00:00,20,1,2,17.25084804,West,Online,False,Sunny,20.98744765,Poor,Positive,36,Phone Order,20,20,Sunday,34.50169608
+2023-01-01 21:00:00,21,6,5,6.010768322,North,Cash,False,Rainy,30.388592,Average,unknown,46,In Store,21,21,Sunday,30.05384161
+2023-01-01 22:00:00,22,1,1,10.81088879,West,Credit Card,True,Rainy,28.57846284,Good,Positive,30,Phone Order,22,22,Sunday,10.81088879
+2023-01-01 23:00:00,23,5,3,17.77761855,East,Credit Card,True,Cloudy,33.61194765,Poor,Neutral,29,Phone Order,23,23,Sunday,53.33285566
+2023-01-02 00:00:00,24,1,4,11.05846796,East,Online,False,Rainy,21.83722125,Good,Neutral,56,Online Order,24,24,Monday,44.23387185
+2023-01-02 01:00:00,25,5,2,6.164219671,East,Credit Card,False,Cloudy,28.0105417,Excellent,Neutral,26,Phone Order,25,25,Monday,12.32843934
+2023-01-02 02:00:00,26,5,1,13.13801553,East,Cash,False,Rainy,33.1919404,Good,unknown,15,Online Order,26,26,Monday,13.13801553
+2023-01-02 03:00:00,27,3,5,17.92613742,East,Cash,True,Sunny,26.1503568,Average,unknown,31,Phone Order,27,27,Monday,89.63068712
+2023-01-02 04:00:00,28,0,1,13.85428314,West,Online,False,Sunny,27.22992377,Average,Positive,55,Phone Order,28,28,Monday,13.85428314
+2023-01-02 05:00:00,29,1,5,8.394186623,North,Credit Card,True,Cloudy,21.05691017,Good,Negative,42,Phone Order,29,29,Monday,41.97093312
+2023-01-02 06:00:00,30,6,3,10.7635943,North,Online,True,Cloudy,24.17215461,Average,Positive,21,Phone Order,30,30,Monday,32.29078291
+2023-01-02 07:00:00,31,5,4,11.75185042,East,Cash,True,Rainy,27.154342182855554,Average,Neutral,23,Phone Order,31,31,Monday,47.00740167
+2023-01-02 08:00:00,32,3,3,13.68899531,West,Online,False,Rainy,34.17683673,Excellent,Positive,36,Phone Order,32,32,Monday,41.06698592
+2023-01-02 09:00:00,33,4,2,16.39026539,South,Credit Card,False,Sunny,24.24001041,Poor,Negative,40,Online Order,33,33,Monday,32.78053077
+2023-01-02 10:00:00,34,2,1,6.483104265,South,Online,False,Rainy,26.91303103,Average,Negative,26,Online Order,34,34,Monday,6.483104265
+2023-01-02 11:00:00,35,0,5,18.3447805,West,Credit Card,True,Sunny,30.06956635,Poor,Positive,21,In Store,35,35,Monday,91.72390248
+2023-01-02 12:00:00,36,8,5,5.184645545,East,Credit Card,False,Cloudy,27.154342182855554,Good,Positive,29,Phone Order,36,36,Monday,25.92322773
+2023-01-02 13:00:00,37,4,1,10.55078502,North,Cash,True,Rainy,27.29663581,Good,Positive,52,Online Order,37,37,Monday,10.55078502
+2023-01-02 14:00:00,38,2,1,5.41130465,West,Cash,True,Cloudy,31.07808559,Average,Negative,35,Phone Order,38,38,Monday,5.41130465
+2023-01-02 15:00:00,39,4,2,10.89461338,South,Cash,True,Rainy,33.0028282,Good,Neutral,28,Phone Order,39,39,Monday,21.78922676
+2023-01-02 16:00:00,40,1,3,12.88718898,South,Credit Card,True,Sunny,29.39388912,Excellent,unknown,16,Online Order,40,40,Monday,38.66156695
+2023-01-02 17:00:00,41,5,5,12.6752208,South,Online,True,Cloudy,30.03580273,Average,Neutral,22,Phone Order,41,41,Monday,63.37610399
+2023-01-02 18:00:00,42,0,2,7.484425205,East,Credit Card,True,Cloudy,27.154342182855554,Average,Negative,59,Online Order,42,42,Monday,14.96885041
+2023-01-02 19:00:00,43,7,3,14.68610765,South,Cash,False,Rainy,34.18664746,Average,Positive,20,Online Order,43,43,Monday,44.05832295
+2023-01-02 20:00:00,44,5,2,5.671676758,West,Cash,True,Cloudy,21.98861116,Good,Positive,51,In Store,44,44,Monday,11.34335352
+2023-01-02 21:00:00,45,7,5,16.4286023,West,Online,False,Sunny,27.154342182855554,Good,Negative,51,In Store,45,45,Monday,82.14301151
+2023-01-02 22:00:00,46,2,1,19.19966651,South,Cash,True,Cloudy,23.97224483,Average,Positive,47,In Store,46,46,Monday,19.19966651
+2023-01-02 23:00:00,47,3,1,10.09653241,West,Cash,False,Cloudy,34.00389716,Poor,Neutral,55,In Store,47,47,Monday,10.09653241
+2023-01-03 00:00:00,48,8,3,12.75859073,South,Cash,False,Rainy,30.79939309,Good,Negative,20,Phone Order,48,48,Tuesday,38.27577218
+2023-01-03 01:00:00,49,6,4,10.68365417,South,Online,False,Cloudy,31.30720569,Good,Negative,40,Phone Order,49,49,Tuesday,42.73461668
+2023-01-03 02:00:00,50,5,3,5.100655855,North,Credit Card,False,Rainy,23.2858876,Average,Positive,53,In Store,50,50,Tuesday,15.30196756
+2023-01-03 03:00:00,51,0,4,10.78811754,East,Cash,True,Rainy,26.64559965,Poor,Negative,55,Online Order,51,51,Tuesday,43.15247017
+2023-01-03 04:00:00,52,4,2,16.87580389,East,Online,True,Cloudy,29.26719792,Average,Positive,51,Online Order,52,52,Tuesday,33.75160778
+2023-01-03 05:00:00,53,0,2,13.93983263,North,Cash,True,Sunny,27.154342182855554,Good,Positive,28,Online Order,53,53,Tuesday,27.87966527
+2023-01-03 06:00:00,54,2,5,6.518898719,North,Online,True,Rainy,21.55939064,Average,Negative,51,Online Order,54,54,Tuesday,32.5944936
+2023-01-03 07:00:00,55,7,4,17.70709235,East,Cash,False,Cloudy,34.43547975,Average,Positive,22,Phone Order,55,55,Tuesday,70.82836938
+2023-01-03 08:00:00,56,4,5,12.96628017,South,Online,False,Rainy,33.35331006,Average,unknown,53,Online Order,56,56,Tuesday,64.83140087
+2023-01-03 09:00:00,57,6,1,17.62585043,South,Cash,False,Sunny,27.154342182855554,Poor,Neutral,27,Online Order,57,57,Tuesday,17.62585043
+2023-01-03 10:00:00,58,6,4,13.70332278,East,Credit Card,True,Sunny,32.34140365,Average,Positive,27,In Store,58,58,Tuesday,54.81329113
+2023-01-03 11:00:00,59,5,3,13.39532667,South,Cash,False,Rainy,27.154342182855554,Good,unknown,54,Online Order,59,59,Tuesday,40.18598002
+2023-01-03 12:00:00,60,2,1,6.578887778,North,Online,True,Sunny,26.92709722,Average,Positive,57,Phone Order,60,60,Tuesday,6.578887778
+2023-01-03 13:00:00,61,3,1,7.510395997,South,Cash,False,Cloudy,24.71651159,Poor,Neutral,42,Online Order,61,61,Tuesday,7.510395997
+2023-01-03 14:00:00,62,2,3,19.58037885,South,Credit Card,False,Cloudy,28.7145288,Excellent,Negative,32,Online Order,62,62,Tuesday,58.74113654
+2023-01-03 15:00:00,63,7,1,8.427301201,West,Cash,False,Rainy,27.154342182855554,Poor,Positive,33,Phone Order,63,63,Tuesday,8.427301201
+2023-01-03 16:00:00,64,0,4,19.66178177,West,Online,False,Sunny,26.16399357,Average,Positive,52,In Store,64,64,Tuesday,78.64712708
+2023-01-03 17:00:00,65,6,5,12.9786906,West,Online,False,Cloudy,29.4382879,Excellent,Positive,46,Phone Order,65,65,Tuesday,64.89345299
+2023-01-03 18:00:00,66,0,1,7.036835706,South,Credit Card,True,Cloudy,30.48969382,Average,Positive,36,In Store,66,66,Tuesday,7.036835706
+2023-01-03 19:00:00,67,0,4,6.489533041,East,Online,False,Cloudy,30.66682726,Poor,unknown,16,Online Order,67,67,Tuesday,25.95813217
+2023-01-03 20:00:00,68,0,2,8.132961061,North,Cash,True,Rainy,20.77949147,Excellent,Positive,27,In Store,68,68,Tuesday,16.26592212
+2023-01-03 21:00:00,69,6,4,18.88455995,South,Cash,True,Rainy,27.154342182855554,Excellent,Negative,37,In Store,69,69,Tuesday,75.5382398
+2023-01-03 22:00:00,70,1,5,11.21225336,East,Cash,True,Cloudy,26.87379972,Average,Negative,39,In Store,70,70,Tuesday,56.06126682
+2023-01-03 23:00:00,71,7,4,10.93151402,South,Online,True,Cloudy,23.93624123,Average,Neutral,42,Online Order,71,71,Tuesday,43.72605608
+2023-01-04 00:00:00,72,7,3,9.698093916,North,Cash,True,Sunny,23.62646761,Poor,Positive,25,In Store,72,72,Wednesday,29.09428175
+2023-01-04 01:00:00,73,4,5,7.205927758,South,Cash,True,Sunny,27.24521169,Average,Neutral,47,In Store,73,73,Wednesday,36.02963879
+2023-01-04 02:00:00,74,2,2,12.31776796,North,Cash,True,Sunny,33.30247309,Excellent,Neutral,38,Online Order,74,74,Wednesday,24.63553592
+2023-01-04 03:00:00,75,2,3,6.950716738,South,Credit Card,True,Rainy,25.67521373,Good,unknown,16,Phone Order,75,75,Wednesday,20.85215021
+2023-01-04 04:00:00,76,8,4,17.53220355,North,Online,False,Cloudy,31.2458862,Good,Neutral,44,Phone Order,76,76,Wednesday,70.12881418
+2023-01-04 05:00:00,77,2,5,10.55595479,South,Online,False,Rainy,21.45228096,Poor,Negative,31,Phone Order,77,77,Wednesday,52.77977397
+2023-01-04 06:00:00,78,6,2,10.62205352,North,Online,True,Cloudy,27.14085053,Average,Neutral,54,Online Order,78,78,Wednesday,21.24410703
+2023-01-04 07:00:00,79,3,3,12.11009643,West,Credit Card,True,Sunny,34.87529211,Poor,Positive,48,Online Order,79,79,Wednesday,36.33028928
+2023-01-04 08:00:00,80,5,2,11.6619157,South,Online,True,Sunny,31.55656704,Good,Neutral,52,Phone Order,80,80,Wednesday,23.32383139
+2023-01-04 09:00:00,81,8,4,19.9228696,South,Credit Card,False,Sunny,23.15792733,Good,Negative,36,In Store,81,81,Wednesday,79.69147838
+2023-01-04 10:00:00,82,5,2,13.18071682,East,Credit Card,False,Sunny,27.52162211,Average,Negative,19,Phone Order,82,82,Wednesday,26.36143364
+2023-01-04 11:00:00,83,7,1,6.323025557,East,Online,True,Cloudy,23.50437145,Excellent,Negative,54,Online Order,83,83,Wednesday,6.323025557
+2023-01-04 12:00:00,84,5,3,14.10316012,North,Cash,True,Sunny,26.14341391,Average,Neutral,30,In Store,84,84,Wednesday,42.30948037
+2023-01-04 13:00:00,85,5,2,7.273764393,South,Cash,False,Cloudy,31.70126036,Good,Neutral,27,In Store,85,85,Wednesday,14.54752879
+2023-01-04 14:00:00,86,8,4,5.464064671,North,Online,False,Cloudy,31.56837223,Excellent,Negative,40,Online Order,86,86,Wednesday,21.85625868
+2023-01-04 15:00:00,87,4,4,19.56113231,West,Online,True,Rainy,23.42150567,Poor,unknown,45,In Store,87,87,Wednesday,78.24452922
+2023-01-04 16:00:00,88,0,2,16.60308337,East,Credit Card,True,Sunny,27.154342182855554,Good,Positive,53,Phone Order,88,88,Wednesday,33.20616675
+2023-01-04 17:00:00,89,2,4,19.70163489,North,Online,True,Sunny,28.88852274,Poor,Neutral,37,Online Order,89,89,Wednesday,78.80653954
+2023-01-04 18:00:00,90,2,5,12.16817672,North,Credit Card,True,Rainy,25.69886436,Excellent,Neutral,26,Online Order,90,90,Wednesday,60.8408836
+2023-01-04 19:00:00,91,6,5,12.98386297,East,Online,False,Cloudy,27.52903371,Poor,Negative,28,Online Order,91,91,Wednesday,64.91931484
+2023-01-04 20:00:00,92,8,5,7.525054339,South,Cash,False,Sunny,29.0760688,Good,Neutral,32,Online Order,92,92,Wednesday,37.62527169
+2023-01-04 21:00:00,93,6,1,8.7036114,North,Cash,True,Cloudy,28.39835798,Average,Neutral,41,In Store,93,93,Wednesday,8.7036114
+2023-01-04 22:00:00,94,3,2,17.57823822,East,Online,True,Rainy,27.29607553,Poor,Negative,42,Online Order,94,94,Wednesday,35.15647645
+2023-01-04 23:00:00,95,3,1,10.34278471,South,Credit Card,True,Cloudy,27.57399206,Good,Negative,32,Online Order,95,95,Wednesday,10.34278471
+2023-01-05 00:00:00,96,6,4,17.40222461,West,Cash,False,Sunny,22.64617866,Good,Neutral,30,In Store,96,96,Thursday,69.60889843
+2023-01-05 01:00:00,97,8,1,15.63520586,East,Credit Card,True,Cloudy,27.154342182855554,Excellent,Positive,30,Online Order,97,97,Thursday,15.63520586
+2023-01-05 02:00:00,98,6,4,7.657563879,North,Online,True,Cloudy,28.1264048,Good,unknown,27,In Store,98,98,Thursday,30.63025552
+2023-01-05 03:00:00,99,2,4,12.61169549,West,Online,True,Sunny,21.96619793,Average,Positive,43,In Store,99,99,Thursday,50.44678197
+2023-01-05 04:00:00,100,1,3,15.16080982,South,Cash,False,Sunny,27.154342182855554,Average,unknown,23,Online Order,100,100,Thursday,45.48242947
+2023-01-05 05:00:00,101,5,5,8.525558222,South,Online,True,Cloudy,33.98665968,Poor,Positive,40,Phone Order,101,101,Thursday,42.62779111
+2023-01-05 06:00:00,102,1,4,17.46032766,East,Cash,False,Cloudy,34.20960349,Poor,Negative,42,Online Order,102,102,Thursday,69.84131063
+2023-01-05 07:00:00,103,8,3,13.17241486,East,Credit Card,True,Rainy,27.154342182855554,Poor,Negative,55,Phone Order,103,103,Thursday,39.51724459
+2023-01-05 08:00:00,104,1,5,7.478630757,East,Cash,True,Sunny,22.0327531,Poor,Negative,27,In Store,104,104,Thursday,37.39315378
+2023-01-05 09:00:00,105,3,4,13.74476639,South,Cash,True,Cloudy,27.7759944,Average,Neutral,50,Phone Order,105,105,Thursday,54.97906557
+2023-01-05 10:00:00,106,7,4,19.99570706,West,Credit Card,False,Sunny,21.68913844,Excellent,Negative,23,Online Order,106,106,Thursday,79.98282825
+2023-01-05 11:00:00,107,5,1,7.257822375,South,Cash,True,Rainy,34.00981128,Poor,Negative,28,Online Order,107,107,Thursday,7.257822375
+2023-01-05 12:00:00,108,0,1,17.25135395,North,Cash,True,Cloudy,22.75369441,Excellent,Neutral,26,Phone Order,108,108,Thursday,17.25135395
+2023-01-05 13:00:00,109,8,5,8.109635048,South,Online,False,Cloudy,23.7914879,Good,Neutral,46,Online Order,109,109,Thursday,40.54817524
+2023-01-05 14:00:00,110,5,4,16.73582494,North,Credit Card,False,Cloudy,26.0995479,Good,Positive,52,Phone Order,110,110,Thursday,66.94329977
+2023-01-05 15:00:00,111,1,2,16.01866885,West,Cash,False,Sunny,25.74746703,Poor,Neutral,17,In Store,111,111,Thursday,32.03733769
+2023-01-05 16:00:00,112,3,1,9.507340784,East,Credit Card,True,Rainy,27.154342182855554,Good,Neutral,30,Phone Order,112,112,Thursday,9.507340784
+2023-01-05 17:00:00,113,4,5,9.887346763,East,Credit Card,False,Sunny,26.84475231,Excellent,Negative,34,Phone Order,113,113,Thursday,49.43673382
+2023-01-05 18:00:00,114,0,4,16.88782088,South,Cash,True,Cloudy,22.5615239,Excellent,unknown,46,Phone Order,114,114,Thursday,67.55128352
+2023-01-05 19:00:00,115,5,4,11.92168268,East,Online,False,Rainy,24.00814843,Good,Positive,37,Phone Order,115,115,Thursday,47.68673071
+2023-01-05 20:00:00,116,3,2,15.96227043,West,Credit Card,False,Cloudy,27.63670078,Poor,Neutral,31,In Store,116,116,Thursday,31.92454086
+2023-01-05 21:00:00,117,3,5,7.21976221,East,Cash,False,Cloudy,22.21180876,Excellent,Negative,30,In Store,117,117,Thursday,36.09881105
+2023-01-05 22:00:00,118,1,4,17.78836673,South,Credit Card,True,Sunny,29.17483513,Excellent,unknown,52,In Store,118,118,Thursday,71.15346691
+2023-01-05 23:00:00,119,2,1,15.66327075,West,Online,True,Cloudy,28.4862096,Average,Negative,22,Phone Order,119,119,Thursday,15.66327075
+2023-01-06 00:00:00,120,1,2,18.60414213,North,Online,True,Rainy,30.72053475,Poor,Negative,33,In Store,120,120,Friday,37.20828427
+2023-01-06 01:00:00,121,2,5,6.985585686,South,Online,True,Cloudy,34.06556923,Average,Neutral,44,Online Order,121,121,Friday,34.92792843
+2023-01-06 02:00:00,122,2,2,13.89521751,North,Cash,True,Cloudy,33.68381842,Good,Negative,48,In Store,122,122,Friday,27.79043501
+2023-01-06 03:00:00,123,0,1,13.98680878,West,Cash,True,Sunny,27.154342182855554,Good,Positive,28,Phone Order,123,123,Friday,13.98680878
+2023-01-06 04:00:00,124,1,5,10.30191111,South,Online,True,Rainy,23.67073396,Average,Positive,36,Online Order,124,124,Friday,51.50955554
+2023-01-06 05:00:00,125,4,2,11.87699637,South,Cash,True,Sunny,21.9734796,Poor,unknown,58,Phone Order,125,125,Friday,23.75399274
+2023-01-06 06:00:00,126,6,3,5.569723449,West,Online,True,Cloudy,24.53415051,Excellent,Negative,31,Online Order,126,126,Friday,16.70917035
+2023-01-06 07:00:00,127,6,1,16.18790058,East,Cash,False,Sunny,33.42627759,Good,unknown,29,Phone Order,127,127,Friday,16.18790058
+2023-01-06 08:00:00,128,1,1,13.23983719,South,Online,False,Sunny,34.58080212,Poor,Negative,46,Phone Order,128,128,Friday,13.23983719
+2023-01-06 09:00:00,129,1,1,5.866115778,South,Credit Card,True,Sunny,32.88987427,Poor,unknown,27,Online Order,129,129,Friday,5.866115778
+2023-01-06 10:00:00,130,0,3,15.21133839,North,Online,True,Sunny,21.65026582,Good,Neutral,35,In Store,130,130,Friday,45.63401518
+2023-01-06 11:00:00,131,1,3,12.00173116,East,Online,True,Cloudy,34.21141997,Good,Negative,54,Online Order,131,131,Friday,36.00519348
+2023-01-06 12:00:00,132,2,4,5.516918891,North,Cash,True,Cloudy,26.35037041,Poor,Neutral,47,Online Order,132,132,Friday,22.06767557
+2023-01-06 13:00:00,133,3,2,19.5441159,North,Cash,False,Rainy,20.13965436,Excellent,Negative,41,Online Order,133,133,Friday,39.08823181
+2023-01-06 14:00:00,134,3,4,19.23668215,East,Cash,False,Sunny,26.63590611,Average,Negative,49,Online Order,134,134,Friday,76.94672859
+2023-01-06 15:00:00,135,2,2,12.69353624,East,Cash,True,Sunny,20.69103755,Good,Positive,30,Online Order,135,135,Friday,25.38707248
+2023-01-06 16:00:00,136,8,3,6.405086311,West,Cash,False,Rainy,27.154342182855554,Average,Neutral,42,Phone Order,136,136,Friday,19.21525893
+2023-01-06 17:00:00,137,2,3,16.31931832,East,Cash,False,Sunny,25.07831041,Poor,Positive,48,Phone Order,137,137,Friday,48.95795497
+2023-01-06 18:00:00,138,4,4,12.3789665,South,Credit Card,True,Rainy,27.101524,Average,unknown,15,In Store,138,138,Friday,49.51586601
+2023-01-06 19:00:00,139,7,5,9.536712174,East,Online,True,Cloudy,27.154342182855554,Excellent,unknown,55,In Store,139,139,Friday,47.68356087
+2023-01-06 20:00:00,140,5,4,12.37127266,West,Online,True,Rainy,27.154342182855554,Poor,unknown,45,Online Order,140,140,Friday,49.48509065
+2023-01-06 21:00:00,141,2,2,12.83666218,West,Online,True,Sunny,29.92852365,Excellent,Neutral,50,In Store,141,141,Friday,25.67332436
+2023-01-06 22:00:00,142,1,4,13.44067549,West,Credit Card,False,Rainy,26.51073303,Poor,Positive,58,In Store,142,142,Friday,53.76270194
+2023-01-06 23:00:00,143,1,1,11.6183557,East,Online,True,Cloudy,32.29141781,Excellent,Neutral,47,Online Order,143,143,Friday,11.6183557
+2023-01-07 00:00:00,144,0,2,14.08632955,East,Credit Card,False,Sunny,33.58373206,Poor,Neutral,47,Phone Order,144,144,Saturday,28.17265909
+2023-01-07 01:00:00,145,2,2,18.78102066,North,Credit Card,True,Cloudy,21.7963995,Excellent,Negative,53,Phone Order,145,145,Saturday,37.56204132
+2023-01-07 02:00:00,146,0,5,10.43402131,North,Credit Card,False,Cloudy,27.97899466,Poor,Positive,32,In Store,146,146,Saturday,52.17010653
+2023-01-07 03:00:00,147,2,3,15.88574695,South,Online,True,Rainy,24.2676794,Excellent,Neutral,37,Phone Order,147,147,Saturday,47.65724084
+2023-01-07 04:00:00,148,5,2,18.41678835,North,Credit Card,True,Cloudy,20.70591797,Poor,Positive,37,Phone Order,148,148,Saturday,36.8335767
+2023-01-07 05:00:00,149,7,3,11.83968914,South,Online,False,Sunny,30.02820043,Excellent,Positive,29,In Store,149,149,Saturday,35.51906741
+2023-01-07 06:00:00,150,3,4,11.65183755,West,Online,False,Cloudy,27.154342182855554,Good,Neutral,40,Online Order,150,150,Saturday,46.60735018
+2023-01-07 07:00:00,151,6,1,14.03175478,North,Cash,False,Cloudy,22.44353982,Average,Positive,44,In Store,151,151,Saturday,14.03175478
+2023-01-07 08:00:00,152,2,5,13.87110139,East,Cash,True,Rainy,32.18620486,Poor,Negative,39,In Store,152,152,Saturday,69.35550696
+2023-01-07 09:00:00,153,7,3,17.09884013,North,Credit Card,False,Cloudy,32.800936,Excellent,Negative,59,In Store,153,153,Saturday,51.2965204
+2023-01-07 10:00:00,154,3,2,12.14725076,South,Credit Card,False,Rainy,33.71510664,Good,Negative,30,Online Order,154,154,Saturday,24.29450151
+2023-01-07 11:00:00,155,8,3,19.94184424,North,Online,False,Rainy,23.97927634,Poor,Negative,53,Online Order,155,155,Saturday,59.82553273
+2023-01-07 12:00:00,156,5,2,5.892073533,West,Credit Card,False,Sunny,27.154342182855554,Poor,Positive,59,Online Order,156,156,Saturday,11.78414707
+2023-01-07 13:00:00,157,0,3,5.047517729,East,Credit Card,False,Sunny,24.80994132,Poor,Negative,28,Online Order,157,157,Saturday,15.14255319
+2023-01-07 14:00:00,158,0,2,14.60297467,South,Online,False,Sunny,28.2850702,Average,Neutral,31,In Store,158,158,Saturday,29.20594935
+2023-01-07 15:00:00,159,1,4,9.476523685,East,Credit Card,False,Sunny,20.75761206,Excellent,Negative,26,Phone Order,159,159,Saturday,37.90609474
+2023-01-07 16:00:00,160,3,2,8.60573583,East,Credit Card,False,Rainy,20.65821633,Excellent,Neutral,43,In Store,160,160,Saturday,17.21147166
+2023-01-07 17:00:00,161,8,2,9.6784862,South,Online,False,Cloudy,30.80559819,Poor,Neutral,46,Online Order,161,161,Saturday,19.3569724
+2023-01-07 18:00:00,162,7,1,8.840713477,East,Online,True,Sunny,26.66719967,Poor,Negative,38,Phone Order,162,162,Saturday,8.840713477
+2023-01-07 19:00:00,163,5,2,5.461850745,East,Cash,True,Sunny,23.84438563,Poor,Negative,27,In Store,163,163,Saturday,10.92370149
+2023-01-07 20:00:00,164,3,1,19.57299564,North,Online,False,Sunny,22.85620244,Good,unknown,34,Phone Order,164,164,Saturday,19.57299564
+2023-01-07 21:00:00,165,8,5,8.311182327,East,Cash,True,Cloudy,30.04930236,Poor,Neutral,29,Online Order,165,165,Saturday,41.55591163
+2023-01-07 22:00:00,166,6,1,16.01044644,East,Credit Card,True,Sunny,20.00602316,Average,Negative,18,Phone Order,166,166,Saturday,16.01044644
+2023-01-07 23:00:00,167,2,4,16.43894592,East,Online,False,Cloudy,32.08836754,Excellent,Positive,48,Phone Order,167,167,Saturday,65.75578368
+2023-01-08 00:00:00,168,0,1,18.93886097,East,Online,False,Rainy,21.18874409,Average,Negative,42,Online Order,168,168,Sunday,18.93886097
+2023-01-08 01:00:00,169,7,5,5.458241856,South,Online,False,Rainy,22.87234422,Poor,unknown,16,Phone Order,169,169,Sunday,27.29120928
+2023-01-08 02:00:00,170,0,4,18.08072508,West,Credit Card,False,Rainy,25.79354593,Good,Negative,44,In Store,170,170,Sunday,72.32290031
+2023-01-08 03:00:00,171,7,3,12.90839271,North,Cash,False,Cloudy,27.2728811,Poor,Neutral,40,Phone Order,171,171,Sunday,38.72517814
+2023-01-08 04:00:00,172,1,3,14.48816165,East,Credit Card,False,Sunny,25.32492674,Poor,Negative,40,In Store,172,172,Sunday,43.46448495
+2023-01-08 05:00:00,173,7,1,14.66705416,East,Credit Card,True,Sunny,24.81068247,Poor,Positive,34,Phone Order,173,173,Sunday,14.66705416
+2023-01-08 06:00:00,174,0,1,17.29696707,South,Online,False,Sunny,34.45874018,Poor,Negative,56,Phone Order,174,174,Sunday,17.29696707
+2023-01-08 07:00:00,175,7,5,10.00110983,West,Cash,True,Sunny,29.62369522,Poor,Negative,42,Online Order,175,175,Sunday,50.00554916
+2023-01-08 08:00:00,176,6,5,15.99576785,East,Credit Card,False,Sunny,20.35149433,Excellent,Positive,34,Online Order,176,176,Sunday,79.97883924
+2023-01-08 09:00:00,177,1,2,12.92867165,South,Online,False,Cloudy,26.45263863,Average,Positive,25,In Store,177,177,Sunday,25.85734329
+2023-01-08 10:00:00,178,7,5,16.90091021,North,Credit Card,True,Rainy,33.1251305,Good,unknown,24,Online Order,178,178,Sunday,84.50455107
+2023-01-08 11:00:00,179,3,2,19.85819049,North,Credit Card,False,Sunny,24.5218428,Poor,Neutral,37,Online Order,179,179,Sunday,39.71638098
+2023-01-08 12:00:00,180,4,4,8.009765261,East,Online,False,Rainy,21.41834517,Good,Neutral,51,Online Order,180,180,Sunday,32.03906104
+2023-01-08 13:00:00,181,8,1,19.91972962,East,Online,True,Cloudy,31.37577157,Excellent,unknown,55,Online Order,181,181,Sunday,19.91972962
+2023-01-08 14:00:00,182,4,4,6.347182314,West,Cash,False,Cloudy,27.154342182855554,Average,Positive,33,Online Order,182,182,Sunday,25.38872926
+2023-01-08 15:00:00,183,4,5,5.034763219,West,Credit Card,True,Sunny,28.55468762,Poor,Negative,59,In Store,183,183,Sunday,25.17381609
+2023-01-08 16:00:00,184,5,4,5.662429043,East,Online,False,Cloudy,20.80364839,Excellent,Negative,32,In Store,184,184,Sunday,22.64971617
+2023-01-08 17:00:00,185,6,4,10.12673607,South,Online,False,Rainy,22.10748515,Excellent,Negative,41,Online Order,185,185,Sunday,40.50694428
+2023-01-08 18:00:00,186,3,4,14.49359496,West,Cash,True,Sunny,29.33824094,Average,Neutral,20,Online Order,186,186,Sunday,57.97437984
+2023-01-08 19:00:00,187,2,5,6.035443113,East,Cash,False,Sunny,23.11735762,Poor,Positive,24,In Store,187,187,Sunday,30.17721557
+2023-01-08 20:00:00,188,7,4,5.084987218,West,Online,True,Rainy,27.5610512,Average,Positive,16,Phone Order,188,188,Sunday,20.33994887
+2023-01-08 21:00:00,189,8,2,19.05636543,East,Cash,True,Sunny,28.17322529,Average,Positive,38,In Store,189,189,Sunday,38.11273085
+2023-01-08 22:00:00,190,1,5,17.32889954,North,Online,True,Sunny,27.154342182855554,Good,Negative,52,Phone Order,190,190,Sunday,86.6444977
+2023-01-08 23:00:00,191,3,4,17.13774757,East,Credit Card,False,Rainy,34.22637733,Good,Neutral,42,Online Order,191,191,Sunday,68.55099027
+2023-01-09 00:00:00,192,0,5,18.26636413,North,Cash,False,Sunny,32.6369616,Average,Positive,42,Online Order,192,192,Monday,91.33182066
+2023-01-09 01:00:00,193,2,3,15.50051409,West,Credit Card,True,Sunny,30.83560261,Good,Neutral,59,In Store,193,193,Monday,46.50154227
+2023-01-09 02:00:00,194,5,2,6.566061946,East,Credit Card,False,Rainy,21.169908,Excellent,Positive,53,Online Order,194,194,Monday,13.13212389
+2023-01-09 03:00:00,195,5,4,10.98650282,West,Credit Card,False,Cloudy,27.154342182855554,Average,Neutral,16,Phone Order,195,195,Monday,43.94601128
+2023-01-09 04:00:00,196,3,3,15.8472423,North,Online,False,Rainy,27.39172019,Poor,Positive,19,Phone Order,196,196,Monday,47.54172689
+2023-01-09 05:00:00,197,4,3,9.205016912,East,Credit Card,True,Sunny,22.41070024,Poor,Neutral,25,In Store,197,197,Monday,27.61505074
+2023-01-09 06:00:00,198,0,5,15.31109546,West,Credit Card,False,Rainy,34.67398195,Excellent,Positive,24,Phone Order,198,198,Monday,76.55547731
+2023-01-09 07:00:00,199,5,3,5.367476724,North,Credit Card,True,Sunny,22.37780351,Poor,Positive,57,In Store,199,199,Monday,16.10243017
+2023-01-09 08:00:00,200,8,2,9.592060113,West,Online,False,Sunny,27.31201753,Poor,Neutral,16,In Store,200,200,Monday,19.18412023
+2023-01-09 09:00:00,201,5,2,13.23695504,South,Credit Card,False,Rainy,25.46181585,Average,unknown,29,Phone Order,201,201,Monday,26.47391009
+2023-01-09 10:00:00,202,1,1,14.48134744,North,Credit Card,True,Sunny,29.59079632,Excellent,Negative,53,Phone Order,202,202,Monday,14.48134744
+2023-01-09 11:00:00,203,7,2,13.65560997,North,Cash,False,Cloudy,21.93554613,Average,Neutral,55,Phone Order,203,203,Monday,27.31121993
+2023-01-09 12:00:00,204,5,3,15.46634414,North,Online,True,Sunny,26.45474642,Excellent,Positive,51,Phone Order,204,204,Monday,46.39903242
+2023-01-09 13:00:00,205,1,2,5.091331224,East,Credit Card,False,Rainy,24.12057549,Average,Positive,21,Phone Order,205,205,Monday,10.18266245
+2023-01-09 14:00:00,206,3,5,6.514118,East,Cash,True,Cloudy,33.31627287,Average,Neutral,34,Phone Order,206,206,Monday,32.57059
+2023-01-09 15:00:00,207,3,1,18.03416378,East,Online,False,Cloudy,20.60878568,Good,Negative,48,Phone Order,207,207,Monday,18.03416378
+2023-01-09 16:00:00,208,2,3,15.22622966,South,Online,False,Sunny,33.70591241,Poor,Neutral,49,Online Order,208,208,Monday,45.67868898
+2023-01-09 17:00:00,209,5,1,6.69397464,South,Online,False,Rainy,32.49491208,Excellent,Positive,48,In Store,209,209,Monday,6.69397464
+2023-01-09 18:00:00,210,8,3,17.63111656,North,Online,True,Sunny,24.46356075,Poor,Positive,36,In Store,210,210,Monday,52.89334968
+2023-01-09 19:00:00,211,5,5,8.633468267,South,Online,True,Sunny,27.154342182855554,Good,Negative,45,Phone Order,211,211,Monday,43.16734134
+2023-01-09 20:00:00,212,8,1,12.17389826,West,Online,True,Rainy,20.46820341,Excellent,Neutral,37,In Store,212,212,Monday,12.17389826
+2023-01-09 21:00:00,213,6,4,7.177947693,North,Credit Card,False,Rainy,27.154342182855554,Good,Positive,33,Phone Order,213,213,Monday,28.71179077
+2023-01-09 22:00:00,214,2,3,15.65165085,North,Credit Card,True,Sunny,27.89892414,Poor,Positive,18,Online Order,214,214,Monday,46.95495254
+2023-01-09 23:00:00,215,6,4,15.00281632,West,Credit Card,True,Cloudy,24.54921539,Average,Positive,38,In Store,215,215,Monday,60.01126526
+2023-01-10 00:00:00,216,5,1,8.166687067,North,Credit Card,True,Sunny,25.43874819,Good,Neutral,34,In Store,216,216,Tuesday,8.166687067
+2023-01-10 01:00:00,217,2,4,17.9510115,South,Cash,True,Cloudy,20.9960803,Good,Neutral,53,Online Order,217,217,Tuesday,71.80404601
+2023-01-10 02:00:00,218,6,4,11.01959036,East,Credit Card,True,Sunny,34.84024271,Average,Negative,42,Online Order,218,218,Tuesday,44.07836145
+2023-01-10 03:00:00,219,4,1,9.387726366,West,Online,True,Rainy,20.58937918,Poor,Positive,53,Online Order,219,219,Tuesday,9.387726366
+2023-01-10 04:00:00,220,5,5,7.284943842,South,Credit Card,True,Cloudy,29.82360685,Good,Positive,31,In Store,220,220,Tuesday,36.42471921
+2023-01-10 05:00:00,221,6,4,8.992520188,West,Credit Card,True,Rainy,26.64103892,Poor,Negative,33,In Store,221,221,Tuesday,35.97008075
+2023-01-10 06:00:00,222,4,4,5.330403818,West,Online,True,Rainy,34.23374327,Average,Positive,49,Online Order,222,222,Tuesday,21.32161527
+2023-01-10 07:00:00,223,4,5,13.74886239,North,Credit Card,True,Rainy,23.6899961,Excellent,Negative,46,Online Order,223,223,Tuesday,68.74431193
+2023-01-10 08:00:00,224,3,4,17.6334612,North,Credit Card,False,Rainy,27.98130236,Good,Negative,53,Online Order,224,224,Tuesday,70.53384478
+2023-01-10 09:00:00,225,5,4,13.23470674,South,Credit Card,False,Rainy,27.23534313,Poor,Positive,49,Online Order,225,225,Tuesday,52.93882697
+2023-01-10 10:00:00,226,4,4,8.289109429,West,Cash,True,Sunny,30.54299666,Average,Neutral,44,Online Order,226,226,Tuesday,33.15643772
+2023-01-10 11:00:00,227,3,2,5.505037673,North,Credit Card,False,Cloudy,21.02015348,Average,Neutral,31,Phone Order,227,227,Tuesday,11.01007535
+2023-01-10 12:00:00,228,6,5,8.219421099,North,Online,False,Sunny,22.90683695,Good,Neutral,56,Online Order,228,228,Tuesday,41.09710549
+2023-01-10 13:00:00,229,1,4,11.24182142,West,Online,True,Sunny,23.2184723,Excellent,Neutral,43,Phone Order,229,229,Tuesday,44.96728568
+2023-01-10 14:00:00,230,5,5,16.39417143,South,Credit Card,True,Sunny,31.07226132,Good,Positive,20,In Store,230,230,Tuesday,81.97085715
+2023-01-10 15:00:00,231,2,3,7.817642788,South,Credit Card,True,Rainy,22.83708044,Poor,Negative,31,In Store,231,231,Tuesday,23.45292836
+2023-01-10 16:00:00,232,8,3,15.7968718,West,Credit Card,False,Sunny,28.60237646,Average,Negative,31,Phone Order,232,232,Tuesday,47.3906154
+2023-01-10 17:00:00,233,8,4,18.00400203,South,Online,True,Cloudy,23.22865731,Excellent,Positive,28,Online Order,233,233,Tuesday,72.0160081
+2023-01-10 18:00:00,234,6,5,11.80920272,North,Online,False,Sunny,32.92437425,Poor,Neutral,38,In Store,234,234,Tuesday,59.04601361
+2023-01-10 19:00:00,235,6,5,17.32147987,West,Cash,True,Rainy,34.13278182,Good,Negative,51,Online Order,235,235,Tuesday,86.60739937
+2023-01-10 20:00:00,236,4,5,13.31986022,North,Cash,False,Cloudy,27.154342182855554,Average,Positive,54,Online Order,236,236,Tuesday,66.5993011
+2023-01-10 21:00:00,237,5,2,14.55636256,East,Cash,False,Cloudy,25.28463326,Good,Positive,53,Phone Order,237,237,Tuesday,29.11272511
+2023-01-10 22:00:00,238,8,3,12.89417691,East,Online,True,Cloudy,23.51086663,Excellent,Neutral,46,In Store,238,238,Tuesday,38.68253072
+2023-01-10 23:00:00,239,8,5,11.94759075,South,Cash,True,Cloudy,20.74671502,Excellent,Positive,50,In Store,239,239,Tuesday,59.73795376
+2023-01-11 00:00:00,240,4,5,8.519801627,East,Credit Card,False,Sunny,24.02750114,Excellent,Negative,51,Phone Order,240,240,Wednesday,42.59900813
+2023-01-11 01:00:00,241,8,2,9.547910892,North,Credit Card,False,Rainy,29.8135367,Excellent,Negative,28,Online Order,241,241,Wednesday,19.09582178
+2023-01-11 02:00:00,242,2,2,9.349551784,East,Online,True,Cloudy,28.00425397,Excellent,Positive,41,Online Order,242,242,Wednesday,18.69910357
+2023-01-11 03:00:00,243,5,5,13.44933396,North,Cash,True,Cloudy,34.16061917,Good,Negative,33,In Store,243,243,Wednesday,67.24666982
+2023-01-11 04:00:00,244,7,1,6.799305395,South,Credit Card,False,Rainy,25.94415894,Excellent,Positive,45,Phone Order,244,244,Wednesday,6.799305395
+2023-01-11 05:00:00,245,8,5,18.75187536,South,Online,True,Sunny,30.40795013,Excellent,Negative,23,Phone Order,245,245,Wednesday,93.7593768
+2023-01-11 06:00:00,246,6,5,15.80982718,North,Cash,False,Cloudy,27.33984121,Average,Neutral,52,Online Order,246,246,Wednesday,79.0491359
+2023-01-11 07:00:00,247,2,2,11.02168446,East,Credit Card,True,Sunny,27.68864324,Excellent,Negative,31,Online Order,247,247,Wednesday,22.04336893
+2023-01-11 08:00:00,248,8,2,7.379362168,South,Cash,True,Sunny,24.01661472,Average,unknown,33,Phone Order,248,248,Wednesday,14.75872434
+2023-01-11 09:00:00,249,2,5,18.22988255,West,Online,True,Sunny,27.154342182855554,Average,Neutral,58,In Store,249,249,Wednesday,91.14941273
+2023-01-11 10:00:00,250,3,5,17.35667135,South,Cash,False,Sunny,27.154342182855554,Average,Positive,18,Online Order,250,250,Wednesday,86.78335676
+2023-01-11 11:00:00,251,7,5,15.82582329,East,Online,True,Cloudy,30.59963783,Good,Neutral,25,Phone Order,251,251,Wednesday,79.12911645
+2023-01-11 12:00:00,252,0,2,9.073205711,West,Cash,False,Cloudy,34.10959999,Good,Negative,36,Phone Order,252,252,Wednesday,18.14641142
+2023-01-11 13:00:00,253,6,5,11.03669956,East,Credit Card,True,Sunny,24.93981916,Poor,Negative,18,Phone Order,253,253,Wednesday,55.18349781
+2023-01-11 14:00:00,254,6,5,6.541223787,North,Online,False,Sunny,20.63300703,Poor,Neutral,31,In Store,254,254,Wednesday,32.70611893
+2023-01-11 15:00:00,255,5,4,7.835592871,West,Online,False,Rainy,27.44442688,Average,Positive,22,Online Order,255,255,Wednesday,31.34237148
+2023-01-11 16:00:00,256,2,1,16.74524956,East,Online,True,Rainy,28.16691998,Good,Neutral,48,Online Order,256,256,Wednesday,16.74524956
+2023-01-11 17:00:00,257,4,3,15.72558078,West,Cash,False,Rainy,22.52660827,Excellent,Negative,25,Online Order,257,257,Wednesday,47.17674235
+2023-01-11 18:00:00,258,6,1,13.90228644,East,Cash,False,Cloudy,31.40696909,Poor,Negative,45,In Store,258,258,Wednesday,13.90228644
+2023-01-11 19:00:00,259,2,4,18.43590089,West,Credit Card,False,Rainy,34.77393663,Good,Neutral,25,Online Order,259,259,Wednesday,73.74360356
+2023-01-11 20:00:00,260,2,3,13.74899777,East,Online,False,Cloudy,34.18662076,Excellent,Neutral,52,Online Order,260,260,Wednesday,41.2469933
+2023-01-11 21:00:00,261,1,5,12.00452,North,Online,True,Cloudy,22.95659058,Excellent,Neutral,35,Online Order,261,261,Wednesday,60.0226
+2023-01-11 22:00:00,262,1,4,10.10556119,West,Cash,True,Cloudy,33.1304486,Good,Negative,44,Online Order,262,262,Wednesday,40.42224478
+2023-01-11 23:00:00,263,0,5,19.10672759,West,Cash,True,Cloudy,30.56740455,Poor,Negative,24,In Store,263,263,Wednesday,95.53363793
+2023-01-12 00:00:00,264,3,2,6.240731923,West,Credit Card,False,Rainy,26.80769846,Good,Negative,40,Phone Order,264,264,Thursday,12.48146385
+2023-01-12 01:00:00,265,0,4,18.96331058,West,Credit Card,False,Sunny,27.154342182855554,Poor,Positive,41,Phone Order,265,265,Thursday,75.85324232
+2023-01-12 02:00:00,266,8,2,17.4007199,North,Cash,True,Sunny,32.74400262,Average,Negative,22,Online Order,266,266,Thursday,34.8014398
+2023-01-12 03:00:00,267,4,4,6.948948868,West,Online,True,Sunny,27.20202409,Good,unknown,53,Online Order,267,267,Thursday,27.79579547
+2023-01-12 04:00:00,268,8,4,13.47476537,South,Credit Card,False,Rainy,25.59811054,Good,Positive,22,Online Order,268,268,Thursday,53.89906146
+2023-01-12 05:00:00,269,8,2,17.99821973,North,Cash,True,Sunny,27.3987124,Poor,Positive,22,In Store,269,269,Thursday,35.99643945
+2023-01-12 06:00:00,270,5,3,13.57713745,South,Cash,True,Rainy,28.68694706,Poor,Positive,48,Online Order,270,270,Thursday,40.73141236
+2023-01-12 07:00:00,271,8,1,18.60799732,West,Online,False,Rainy,22.83616481,Good,Positive,30,In Store,271,271,Thursday,18.60799732
+2023-01-12 08:00:00,272,0,5,19.14475725,East,Cash,True,Rainy,33.51361595,Excellent,Positive,55,Online Order,272,272,Thursday,95.72378626
+2023-01-12 09:00:00,273,6,4,11.33576783,South,Cash,False,Sunny,30.11280423,Excellent,Positive,27,Online Order,273,273,Thursday,45.34307133
+2023-01-12 10:00:00,274,6,5,10.65970492,West,Credit Card,True,Sunny,29.49903376,Excellent,Neutral,37,Phone Order,274,274,Thursday,53.29852461
+2023-01-12 11:00:00,275,1,2,19.04481731,South,Cash,False,Sunny,21.49244339,Average,Neutral,26,Online Order,275,275,Thursday,38.08963462
+2023-01-12 12:00:00,276,4,5,15.12710092,West,Cash,False,Cloudy,29.06260907,Average,Neutral,41,In Store,276,276,Thursday,75.63550459
+2023-01-12 13:00:00,277,4,2,6.74034022,West,Credit Card,False,Rainy,21.81440993,Poor,Neutral,36,Phone Order,277,277,Thursday,13.48068044
+2023-01-12 14:00:00,278,5,5,5.634376238,West,Online,False,Cloudy,21.18046513,Average,Negative,46,In Store,278,278,Thursday,28.17188119
+2023-01-12 15:00:00,279,0,1,13.46943576,East,Online,False,Rainy,27.90966343,Excellent,Positive,41,Phone Order,279,279,Thursday,13.46943576
+2023-01-12 16:00:00,280,1,1,18.95256448,South,Credit Card,True,Sunny,26.04178301,Good,Negative,16,In Store,280,280,Thursday,18.95256448
+2023-01-12 17:00:00,281,4,1,17.66373054,North,Credit Card,True,Rainy,27.154342182855554,Average,Positive,59,Phone Order,281,281,Thursday,17.66373054
+2023-01-12 18:00:00,282,6,1,15.1377162,North,Online,True,Rainy,21.33833252,Average,Positive,47,In Store,282,282,Thursday,15.1377162
+2023-01-12 19:00:00,283,8,1,7.086737733,North,Online,False,Cloudy,26.46474594,Excellent,Negative,40,In Store,283,283,Thursday,7.086737733
+2023-01-12 20:00:00,284,8,1,8.813470756,North,Online,True,Rainy,27.154342182855554,Average,Neutral,42,Online Order,284,284,Thursday,8.813470756
+2023-01-12 21:00:00,285,1,2,18.1326684,West,Online,False,Sunny,34.80650129,Poor,Negative,33,Phone Order,285,285,Thursday,36.2653368
+2023-01-12 22:00:00,286,0,4,7.74210855,South,Online,False,Rainy,28.41725319,Good,Negative,57,Phone Order,286,286,Thursday,30.9684342
+2023-01-12 23:00:00,287,0,5,9.176591124,South,Credit Card,True,Rainy,30.31155291,Excellent,Positive,19,Online Order,287,287,Thursday,45.88295562
+2023-01-13 00:00:00,288,3,1,6.944009768,East,Cash,False,Rainy,24.88127421,Poor,Positive,47,In Store,288,288,Friday,6.944009768
+2023-01-13 01:00:00,289,7,2,15.14162347,South,Online,True,Cloudy,21.42108372,Excellent,Positive,34,In Store,289,289,Friday,30.28324694
+2023-01-13 02:00:00,290,4,2,19.15973458,South,Online,False,Rainy,34.63806294,Poor,Neutral,44,Phone Order,290,290,Friday,38.31946916
+2023-01-13 03:00:00,291,0,2,9.034520474,South,Cash,False,Rainy,24.29388553,Good,Negative,59,In Store,291,291,Friday,18.06904095
+2023-01-13 04:00:00,292,6,4,12.13109912,East,Cash,True,Cloudy,26.35712278,Good,Negative,22,Phone Order,292,292,Friday,48.52439647
+2023-01-13 05:00:00,293,1,5,14.5150961,North,Cash,False,Cloudy,29.74795883,Poor,Neutral,52,Phone Order,293,293,Friday,72.57548048
+2023-01-13 06:00:00,294,3,4,19.99199372,South,Cash,True,Cloudy,20.37045947,Poor,Negative,31,In Store,294,294,Friday,79.96797489
+2023-01-13 07:00:00,295,2,3,6.572120975,East,Cash,False,Cloudy,27.154342182855554,Poor,Negative,58,In Store,295,295,Friday,19.71636292
+2023-01-13 08:00:00,296,5,2,12.47856199,East,Cash,True,Sunny,27.154342182855554,Poor,Positive,15,In Store,296,296,Friday,24.95712399
+2023-01-13 09:00:00,297,2,3,10.7768018,West,Credit Card,False,Sunny,24.17325781,Poor,Neutral,17,Online Order,297,297,Friday,32.3304054
+2023-01-13 10:00:00,298,8,1,17.98730248,East,Cash,True,Rainy,20.92411978,Poor,Positive,40,Phone Order,298,298,Friday,17.98730248
+2023-01-13 11:00:00,299,5,1,12.13951597,North,Cash,True,Sunny,22.43747623,Good,Neutral,45,In Store,299,299,Friday,12.13951597
+2023-01-13 12:00:00,300,4,4,6.664662869,South,Credit Card,False,Rainy,33.42550788,Poor,Positive,22,Online Order,300,300,Friday,26.65865148
+2023-01-13 13:00:00,301,6,5,14.51636218,East,Cash,True,Sunny,30.29036336,Average,Negative,57,In Store,301,301,Friday,72.5818109
+2023-01-13 14:00:00,302,5,3,16.56170927,North,Online,False,Cloudy,23.74852582,Good,Neutral,22,Phone Order,302,302,Friday,49.68512782
+2023-01-13 15:00:00,303,7,5,5.043218775,East,Online,False,Cloudy,20.98401147,Excellent,Neutral,49,Online Order,303,303,Friday,25.21609387
+2023-01-13 16:00:00,304,2,4,17.88435028,East,Cash,True,Sunny,30.35922969,Good,Positive,53,Phone Order,304,304,Friday,71.53740113
+2023-01-13 17:00:00,305,4,1,7.790345,East,Credit Card,True,Sunny,28.58611589,Excellent,Neutral,42,In Store,305,305,Friday,7.790345
+2023-01-13 18:00:00,306,7,5,13.28104047,East,Online,True,Rainy,26.06779287,Excellent,Negative,18,In Store,306,306,Friday,66.40520235
+2023-01-13 19:00:00,307,8,5,11.23696251,East,Credit Card,True,Rainy,25.45417174,Average,Negative,30,In Store,307,307,Friday,56.18481255
+2023-01-13 20:00:00,308,7,1,15.79480725,North,Online,True,Rainy,23.25221414,Poor,Negative,27,Online Order,308,308,Friday,15.79480725
+2023-01-13 21:00:00,309,3,3,10.56742422,South,Cash,False,Cloudy,27.154342182855554,Poor,Positive,34,Online Order,309,309,Friday,31.70227267
+2023-01-13 22:00:00,310,3,1,18.04644765,South,Credit Card,True,Cloudy,34.56002042,Good,Neutral,19,Online Order,310,310,Friday,18.04644765
+2023-01-13 23:00:00,311,1,5,15.95744541,South,Credit Card,False,Cloudy,22.63572869,Poor,Positive,51,Online Order,311,311,Friday,79.78722707
+2023-01-14 00:00:00,312,4,3,14.71569757,South,Credit Card,True,Cloudy,27.154342182855554,Average,Negative,34,In Store,312,312,Saturday,44.1470927
+2023-01-14 01:00:00,313,8,3,16.94360893,North,Online,True,Rainy,26.36277584,Good,Neutral,38,In Store,313,313,Saturday,50.8308268
+2023-01-14 02:00:00,314,0,1,16.31034552,West,Online,True,Cloudy,27.154342182855554,Good,Negative,50,In Store,314,314,Saturday,16.31034552
+2023-01-14 03:00:00,315,3,5,5.539080124,West,Online,False,Cloudy,23.8122092,Good,Neutral,48,Online Order,315,315,Saturday,27.69540062
+2023-01-14 04:00:00,316,4,4,10.92101531,North,Cash,True,Cloudy,32.37702313,Poor,Neutral,59,Online Order,316,316,Saturday,43.68406123
+2023-01-14 05:00:00,317,0,5,18.96210946,North,Online,False,Cloudy,27.27883406,Poor,Positive,48,In Store,317,317,Saturday,94.8105473
+2023-01-14 06:00:00,318,1,2,6.885864035,East,Cash,False,Sunny,28.15108778,Poor,Neutral,33,In Store,318,318,Saturday,13.77172807
+2023-01-14 07:00:00,319,7,4,16.05644826,East,Credit Card,False,Rainy,24.57141369,Good,Negative,31,Online Order,319,319,Saturday,64.22579303
+2023-01-14 08:00:00,320,3,3,19.61887717,East,Credit Card,True,Rainy,22.72712699,Good,unknown,19,Phone Order,320,320,Saturday,58.85663151
+2023-01-14 09:00:00,321,4,4,5.782979436,South,Cash,False,Cloudy,21.28865582,Excellent,Negative,39,In Store,321,321,Saturday,23.13191774
+2023-01-14 10:00:00,322,5,3,15.23290821,East,Online,True,Sunny,30.71178711,Excellent,Positive,32,In Store,322,322,Saturday,45.69872463
+2023-01-14 11:00:00,323,0,3,12.02231212,West,Cash,False,Rainy,22.94351423,Poor,Negative,22,In Store,323,323,Saturday,36.06693636
+2023-01-14 12:00:00,324,7,4,13.68762883,South,Credit Card,True,Rainy,30.35113031,Good,unknown,41,Online Order,324,324,Saturday,54.75051532
+2023-01-14 13:00:00,325,3,3,6.280120047,East,Credit Card,False,Cloudy,25.85564669,Poor,Negative,29,In Store,325,325,Saturday,18.84036014
+2023-01-14 14:00:00,326,8,3,5.645104278,South,Cash,True,Cloudy,26.23662201,Poor,Negative,59,In Store,326,326,Saturday,16.93531283
+2023-01-14 15:00:00,327,0,2,15.00299991,West,Online,True,Rainy,27.03766244,Excellent,Neutral,27,In Store,327,327,Saturday,30.00599982
+2023-01-14 16:00:00,328,3,5,17.34964145,East,Online,True,Rainy,25.51562762,Average,Negative,30,In Store,328,328,Saturday,86.74820724
+2023-01-14 17:00:00,329,0,5,16.73023002,West,Cash,False,Sunny,21.50929966,Poor,Neutral,36,In Store,329,329,Saturday,83.65115012
+2023-01-14 18:00:00,330,7,2,13.15708592,West,Cash,False,Rainy,24.64447715,Average,Positive,34,Phone Order,330,330,Saturday,26.31417184
+2023-01-14 19:00:00,331,3,4,6.498002317,West,Online,True,Rainy,29.95601541,Average,Negative,27,Phone Order,331,331,Saturday,25.99200927
+2023-01-14 20:00:00,332,2,1,15.32066666,East,Credit Card,False,Cloudy,29.98676602,Good,Positive,34,In Store,332,332,Saturday,15.32066666
+2023-01-14 21:00:00,333,4,1,8.628333253,North,Cash,False,Rainy,24.29336461,Good,Negative,16,In Store,333,333,Saturday,8.628333253
+2023-01-14 22:00:00,334,7,1,18.66603054,East,Online,False,Cloudy,26.9015394,Poor,Negative,49,In Store,334,334,Saturday,18.66603054
+2023-01-14 23:00:00,335,0,2,17.57398039,West,Online,False,Rainy,22.90170842,Excellent,Positive,33,In Store,335,335,Saturday,35.14796079
+2023-01-15 00:00:00,336,8,2,15.64074451,East,Credit Card,False,Rainy,23.15558122,Excellent,Negative,59,Online Order,336,336,Sunday,31.28148901
+2023-01-15 01:00:00,337,5,3,19.23268934,West,Credit Card,False,Rainy,20.34570633,Poor,Negative,51,Online Order,337,337,Sunday,57.69806801
+2023-01-15 02:00:00,338,0,1,5.471327323,North,Credit Card,False,Sunny,33.45119825,Poor,Positive,20,Online Order,338,338,Sunday,5.471327323
+2023-01-15 03:00:00,339,4,4,16.04300638,South,Credit Card,True,Cloudy,23.16059998,Excellent,Negative,28,Phone Order,339,339,Sunday,64.1720255
+2023-01-15 04:00:00,340,3,4,9.95364169,North,Credit Card,True,Sunny,23.41300815,Average,Neutral,18,In Store,340,340,Sunday,39.81456676
+2023-01-15 05:00:00,341,5,1,18.59098829,North,Cash,False,Rainy,24.19402149,Poor,Negative,36,Online Order,341,341,Sunday,18.59098829
+2023-01-15 06:00:00,342,6,1,9.00012795,South,Online,True,Sunny,21.91112108,Average,Negative,53,In Store,342,342,Sunday,9.00012795
+2023-01-15 07:00:00,343,0,1,15.87284749,East,Cash,True,Cloudy,29.58894325,Poor,unknown,50,In Store,343,343,Sunday,15.87284749
+2023-01-15 08:00:00,344,1,2,18.16470529,South,Cash,True,Rainy,21.1271443,Poor,unknown,48,Phone Order,344,344,Sunday,36.32941059
+2023-01-15 09:00:00,345,6,2,5.624852276,East,Cash,False,Sunny,22.01303639,Average,Neutral,41,Phone Order,345,345,Sunday,11.24970455
+2023-01-15 10:00:00,346,0,2,10.96471369,East,Cash,False,Sunny,29.6713509,Average,unknown,21,Online Order,346,346,Sunday,21.92942739
+2023-01-15 11:00:00,347,2,5,16.43463548,West,Cash,False,Cloudy,25.09490931,Excellent,unknown,17,Online Order,347,347,Sunday,82.1731774
+2023-01-15 12:00:00,348,1,4,11.82378334,West,Credit Card,False,Sunny,30.6192174,Poor,Positive,47,Phone Order,348,348,Sunday,47.29513337
+2023-01-15 13:00:00,349,5,4,9.008789447,South,Credit Card,False,Cloudy,28.36137117,Good,unknown,16,Phone Order,349,349,Sunday,36.03515779
+2023-01-15 14:00:00,350,8,3,8.297080232,North,Online,True,Rainy,23.8403176,Good,Neutral,56,In Store,350,350,Sunday,24.8912407
+2023-01-15 15:00:00,351,2,2,6.972774004,South,Cash,False,Rainy,29.76241926,Poor,Positive,30,In Store,351,351,Sunday,13.94554801
+2023-01-15 16:00:00,352,6,5,17.8569434,East,Online,True,Sunny,21.7441052,Poor,Negative,39,Online Order,352,352,Sunday,89.28471699
+2023-01-15 17:00:00,353,3,5,13.63033105,West,Credit Card,False,Rainy,28.04615575,Poor,Negative,29,Online Order,353,353,Sunday,68.15165524
+2023-01-15 18:00:00,354,4,4,6.145774175,South,Credit Card,True,Rainy,26.55722158,Average,Positive,38,Phone Order,354,354,Sunday,24.5830967
+2023-01-15 19:00:00,355,8,2,10.73870485,South,Credit Card,False,Sunny,24.01810374,Good,Negative,29,Online Order,355,355,Sunday,21.47740971
+2023-01-15 20:00:00,356,2,3,10.51600476,West,Cash,False,Rainy,29.06007497,Good,Neutral,45,In Store,356,356,Sunday,31.54801429
+2023-01-15 21:00:00,357,3,2,7.726087861,West,Cash,False,Sunny,27.154342182855554,Good,Negative,28,Phone Order,357,357,Sunday,15.45217572
+2023-01-15 22:00:00,358,3,1,11.53261438,West,Credit Card,False,Cloudy,27.154342182855554,Poor,Positive,28,In Store,358,358,Sunday,11.53261438
+2023-01-15 23:00:00,359,0,2,9.981490481,East,Online,False,Cloudy,29.11644153,Average,Neutral,20,Phone Order,359,359,Sunday,19.96298096
+2023-01-16 00:00:00,360,2,1,10.12705558,West,Online,False,Cloudy,26.07058811,Poor,Negative,28,Phone Order,360,360,Monday,10.12705558
+2023-01-16 01:00:00,361,5,1,16.08539837,North,Credit Card,True,Sunny,23.3781065,Excellent,Neutral,31,In Store,361,361,Monday,16.08539837
+2023-01-16 02:00:00,362,1,3,8.348950783,South,Online,False,Sunny,23.85644134,Excellent,Positive,32,Online Order,362,362,Monday,25.04685235
+2023-01-16 03:00:00,363,1,4,14.62789938,West,Credit Card,True,Rainy,27.19182467,Good,Negative,34,Online Order,363,363,Monday,58.51159753
+2023-01-16 04:00:00,364,6,2,13.55974436,West,Online,False,Rainy,25.50916552,Poor,Negative,31,Online Order,364,364,Monday,27.11948872
+2023-01-16 05:00:00,365,6,1,13.52138769,East,Credit Card,True,Rainy,33.70721784,Excellent,Neutral,30,Online Order,365,365,Monday,13.52138769
+2023-01-16 06:00:00,366,1,2,14.94511019,East,Online,True,Rainy,25.52443201,Excellent,Negative,54,In Store,366,366,Monday,29.89022038
+2023-01-16 07:00:00,367,5,4,13.22573054,South,Cash,True,Rainy,25.60166887,Poor,Negative,53,Phone Order,367,367,Monday,52.90292217
+2023-01-16 08:00:00,368,4,4,18.18882672,North,Credit Card,True,Sunny,25.75301769,Average,Negative,46,In Store,368,368,Monday,72.75530689
+2023-01-16 09:00:00,369,7,5,15.13370138,South,Credit Card,True,Sunny,32.54930316,Poor,Negative,58,Online Order,369,369,Monday,75.6685069
+2023-01-16 10:00:00,370,4,4,13.20444877,West,Online,True,Cloudy,29.76182481,Poor,Positive,23,Online Order,370,370,Monday,52.81779508
+2023-01-16 11:00:00,371,0,3,17.4464468,North,Credit Card,False,Cloudy,29.21253275,Average,Negative,41,In Store,371,371,Monday,52.33934041
+2023-01-16 12:00:00,372,7,1,14.09219847,North,Credit Card,True,Cloudy,25.01214534,Good,unknown,47,Phone Order,372,372,Monday,14.09219847
+2023-01-16 13:00:00,373,7,5,9.367163717,North,Credit Card,False,Cloudy,32.26856265,Good,Positive,24,In Store,373,373,Monday,46.83581858
+2023-01-16 14:00:00,374,2,3,8.106423773,North,Cash,False,Sunny,20.57545792,Good,Neutral,31,In Store,374,374,Monday,24.31927132
+2023-01-16 15:00:00,375,5,2,7.284916785,South,Cash,True,Sunny,33.06195759,Average,Neutral,50,In Store,375,375,Monday,14.56983357
+2023-01-16 16:00:00,376,5,1,18.49182819,East,Online,True,Sunny,27.6912485,Excellent,Neutral,31,Phone Order,376,376,Monday,18.49182819
+2023-01-16 17:00:00,377,7,4,15.65203148,East,Cash,False,Rainy,25.97375352,Average,Positive,32,In Store,377,377,Monday,62.60812591
+2023-01-16 18:00:00,378,2,1,19.06067657,West,Online,True,Rainy,27.45750921,Poor,Positive,37,In Store,378,378,Monday,19.06067657
+2023-01-16 19:00:00,379,7,2,14.04937709,East,Cash,True,Cloudy,30.01123296,Average,Positive,48,Online Order,379,379,Monday,28.09875417
+2023-01-16 20:00:00,380,8,5,12.10101322,East,Online,True,Rainy,20.1914814,Excellent,Negative,22,In Store,380,380,Monday,60.50506611
+2023-01-16 21:00:00,381,6,5,5.895747335,East,Cash,True,Sunny,33.07327785,Excellent,Neutral,27,Online Order,381,381,Monday,29.47873667
+2023-01-16 22:00:00,382,6,5,15.07463422,East,Cash,True,Cloudy,26.70109288,Poor,Positive,37,Online Order,382,382,Monday,75.37317112
+2023-01-16 23:00:00,383,4,4,13.7331314,West,Online,True,Cloudy,27.154342182855554,Good,Neutral,34,Online Order,383,383,Monday,54.93252559
+2023-01-17 00:00:00,384,0,3,19.8531334,South,Credit Card,True,Rainy,22.07368348,Excellent,Positive,36,Phone Order,384,384,Tuesday,59.55940021
+2023-01-17 01:00:00,385,6,3,8.587381667,North,Credit Card,False,Cloudy,26.59198062,Excellent,unknown,37,Online Order,385,385,Tuesday,25.762145
+2023-01-17 02:00:00,386,3,1,12.96106033,East,Cash,True,Rainy,27.44484157,Excellent,Positive,55,In Store,386,386,Tuesday,12.96106033
+2023-01-17 03:00:00,387,4,4,14.76436003,South,Online,False,Rainy,26.05470042,Poor,unknown,49,In Store,387,387,Tuesday,59.05744011
+2023-01-17 04:00:00,388,6,5,14.66886762,East,Credit Card,False,Cloudy,30.17990141,Excellent,Negative,17,Online Order,388,388,Tuesday,73.34433811
+2023-01-17 05:00:00,389,0,5,13.41940314,East,Online,False,Rainy,26.31344793,Good,Positive,48,Online Order,389,389,Tuesday,67.09701572
+2023-01-17 06:00:00,390,5,2,16.65392015,North,Credit Card,False,Rainy,34.42126367,Poor,Positive,47,In Store,390,390,Tuesday,33.30784031
+2023-01-17 07:00:00,391,5,2,8.074718143,North,Online,True,Rainy,27.154342182855554,Good,unknown,31,Online Order,391,391,Tuesday,16.14943629
+2023-01-17 08:00:00,392,7,5,15.884408,North,Cash,False,Rainy,32.11216903,Excellent,Negative,59,Phone Order,392,392,Tuesday,79.42204002
+2023-01-17 09:00:00,393,8,5,14.29601857,East,Online,False,Cloudy,21.64033855,Excellent,Neutral,33,Online Order,393,393,Tuesday,71.48009286
+2023-01-17 10:00:00,394,5,4,18.44112668,East,Credit Card,False,Sunny,25.95936939,Good,Neutral,44,Phone Order,394,394,Tuesday,73.76450671
+2023-01-17 11:00:00,395,2,3,17.70791659,East,Cash,False,Sunny,25.05271552,Poor,Neutral,37,Phone Order,395,395,Tuesday,53.12374976
+2023-01-17 12:00:00,396,6,2,9.727205587,North,Online,False,Rainy,28.54223582,Poor,Neutral,29,Phone Order,396,396,Tuesday,19.45441117
+2023-01-17 13:00:00,397,2,3,9.143559875,West,Credit Card,True,Rainy,32.9167028,Good,Positive,28,Online Order,397,397,Tuesday,27.43067962
+2023-01-17 14:00:00,398,0,4,19.72479986,South,Cash,True,Rainy,21.17507327,Excellent,Negative,16,Phone Order,398,398,Tuesday,78.89919943
+2023-01-17 15:00:00,399,5,5,12.90897771,West,Online,False,Sunny,21.08862197,Average,Positive,53,Phone Order,399,399,Tuesday,64.54488857
+2023-01-17 16:00:00,400,8,3,18.59631446,East,Credit Card,True,Rainy,32.75476562,Good,Negative,32,Online Order,400,400,Tuesday,55.78894338
+2023-01-17 17:00:00,401,0,5,7.458215357,East,Online,True,Cloudy,23.19275129,Good,Neutral,20,Phone Order,401,401,Tuesday,37.29107678
+2023-01-17 18:00:00,402,3,5,14.64228372,West,Online,False,Cloudy,27.154342182855554,Good,Negative,46,Online Order,402,402,Tuesday,73.21141861
+2023-01-17 19:00:00,403,3,1,17.14790281,East,Cash,False,Cloudy,28.14317199,Excellent,Positive,35,In Store,403,403,Tuesday,17.14790281
+2023-01-17 20:00:00,404,2,3,19.21092874,South,Cash,False,Sunny,32.49340392,Poor,Positive,54,Phone Order,404,404,Tuesday,57.63278623
+2023-01-17 21:00:00,405,7,3,10.06010212,East,Credit Card,True,Rainy,21.87633365,Excellent,Neutral,42,Online Order,405,405,Tuesday,30.18030635
+2023-01-17 22:00:00,406,4,5,15.87471755,South,Cash,False,Rainy,21.94674449,Good,Positive,41,In Store,406,406,Tuesday,79.37358774
+2023-01-17 23:00:00,407,7,4,13.08219514,West,Credit Card,True,Rainy,28.3522754,Excellent,unknown,16,Phone Order,407,407,Tuesday,52.32878054
+2023-01-18 00:00:00,408,7,1,5.909433891,West,Online,True,Sunny,34.1956798,Excellent,Negative,47,Phone Order,408,408,Wednesday,5.909433891
+2023-01-18 01:00:00,409,8,5,15.34999606,East,Online,True,Sunny,27.154342182855554,Good,Positive,30,Online Order,409,409,Wednesday,76.7499803
+2023-01-18 02:00:00,410,5,2,15.35144837,South,Credit Card,False,Sunny,24.9041315,Excellent,unknown,53,In Store,410,410,Wednesday,30.70289675
+2023-01-18 03:00:00,411,8,2,18.95910207,East,Online,True,Sunny,27.154342182855554,Average,Neutral,36,Online Order,411,411,Wednesday,37.91820415
+2023-01-18 04:00:00,412,0,1,12.45968669,North,Cash,False,Cloudy,33.95672901,Excellent,Positive,57,Phone Order,412,412,Wednesday,12.45968669
+2023-01-18 05:00:00,413,3,4,8.453763811,North,Online,False,Sunny,32.55391749,Excellent,Neutral,27,Phone Order,413,413,Wednesday,33.81505524
+2023-01-18 06:00:00,414,8,5,5.668457352,North,Cash,False,Sunny,34.93225416,Poor,Negative,16,Phone Order,414,414,Wednesday,28.34228676
+2023-01-18 07:00:00,415,0,3,11.2346328,North,Credit Card,False,Sunny,27.154342182855554,Poor,Negative,28,Phone Order,415,415,Wednesday,33.7038984
+2023-01-18 08:00:00,416,8,1,9.528750501,East,Credit Card,False,Rainy,21.69287217,Good,Positive,52,In Store,416,416,Wednesday,9.528750501
+2023-01-18 09:00:00,417,7,4,16.41632459,North,Online,True,Rainy,29.14201645,Good,Positive,55,In Store,417,417,Wednesday,65.66529836
+2023-01-18 10:00:00,418,6,3,10.31401647,South,Online,True,Rainy,32.30864659,Poor,Negative,42,Online Order,418,418,Wednesday,30.94204942
+2023-01-18 11:00:00,419,2,2,19.23606794,West,Cash,True,Cloudy,24.27866513,Average,Neutral,21,Online Order,419,419,Wednesday,38.47213589
+2023-01-18 12:00:00,420,4,2,19.43465304,West,Cash,True,Cloudy,23.58816632,Excellent,Positive,32,Online Order,420,420,Wednesday,38.86930609
+2023-01-18 13:00:00,421,8,3,14.31362885,North,Online,True,Sunny,31.80463699,Average,Positive,55,Phone Order,421,421,Wednesday,42.94088656
+2023-01-18 14:00:00,422,4,1,18.92990431,North,Online,False,Rainy,20.84572781,Average,Neutral,50,Online Order,422,422,Wednesday,18.92990431
+2023-01-18 15:00:00,423,1,2,16.41281517,North,Credit Card,False,Cloudy,25.54073971,Poor,Positive,55,In Store,423,423,Wednesday,32.82563034
+2023-01-18 16:00:00,424,8,5,13.20289461,East,Credit Card,True,Rainy,27.58713834,Good,Neutral,50,Online Order,424,424,Wednesday,66.01447307
+2023-01-18 17:00:00,425,6,3,7.704619031,West,Credit Card,True,Cloudy,28.40523012,Excellent,Neutral,58,Online Order,425,425,Wednesday,23.11385709
+2023-01-18 18:00:00,426,4,3,11.87896915,North,Online,True,Cloudy,30.92922735,Good,Neutral,18,In Store,426,426,Wednesday,35.63690746
+2023-01-18 19:00:00,427,8,2,13.41311695,South,Online,False,Sunny,25.32268585,Average,Neutral,44,In Store,427,427,Wednesday,26.8262339
+2023-01-18 20:00:00,428,5,1,17.95942371,North,Online,False,Sunny,27.154342182855554,Average,Neutral,38,Phone Order,428,428,Wednesday,17.95942371
+2023-01-18 21:00:00,429,2,5,12.22000065,West,Credit Card,False,Cloudy,28.78063134,Good,Negative,34,In Store,429,429,Wednesday,61.10000324
+2023-01-18 22:00:00,430,6,1,18.46512009,North,Online,True,Sunny,27.154342182855554,Good,Neutral,45,In Store,430,430,Wednesday,18.46512009
+2023-01-18 23:00:00,431,4,4,15.11523469,West,Cash,True,Cloudy,29.6072494,Poor,Negative,38,Online Order,431,431,Wednesday,60.46093874
+2023-01-19 00:00:00,432,6,4,7.054985946,North,Online,True,Cloudy,27.154342182855554,Good,Neutral,21,In Store,432,432,Thursday,28.21994378
+2023-01-19 01:00:00,433,0,2,19.92472054,South,Online,True,Rainy,21.2697313,Good,Positive,40,Phone Order,433,433,Thursday,39.84944108
+2023-01-19 02:00:00,434,2,2,12.90848991,North,Online,False,Sunny,21.78907508,Poor,Negative,27,Online Order,434,434,Thursday,25.81697982
+2023-01-19 03:00:00,435,8,2,10.87787445,South,Online,True,Sunny,23.36873574,Good,unknown,22,Phone Order,435,435,Thursday,21.75574889
+2023-01-19 04:00:00,436,8,4,14.88670647,South,Online,True,Sunny,27.50296903,Average,Neutral,19,In Store,436,436,Thursday,59.54682587
+2023-01-19 05:00:00,437,8,1,6.63339971,North,Cash,True,Rainy,32.60664126,Good,Neutral,58,Phone Order,437,437,Thursday,6.63339971
+2023-01-19 06:00:00,438,2,1,14.5480797,South,Cash,False,Rainy,30.51940013,Excellent,Positive,27,Phone Order,438,438,Thursday,14.5480797
+2023-01-19 07:00:00,439,5,2,12.47354001,East,Online,False,Rainy,31.83560906,Average,Neutral,43,In Store,439,439,Thursday,24.94708001
+2023-01-19 08:00:00,440,1,5,11.10011105,North,Credit Card,True,Sunny,25.26463436,Poor,Positive,34,In Store,440,440,Thursday,55.50055525
+2023-01-19 09:00:00,441,3,1,19.29530032,North,Online,False,Sunny,26.06980612,Average,Neutral,28,Online Order,441,441,Thursday,19.29530032
+2023-01-19 10:00:00,442,7,4,12.83809575,South,Online,False,Sunny,27.154342182855554,Poor,Neutral,46,Online Order,442,442,Thursday,51.352383
+2023-01-19 11:00:00,443,4,3,8.286762192,South,Online,False,Rainy,22.87809777,Excellent,Negative,41,Online Order,443,443,Thursday,24.86028658
+2023-01-19 12:00:00,444,5,3,11.88445219,North,Credit Card,False,Rainy,20.91824987,Excellent,Positive,39,In Store,444,444,Thursday,35.65335657
+2023-01-19 13:00:00,445,4,3,18.79081107,East,Credit Card,False,Cloudy,28.86374139,Average,Neutral,18,Phone Order,445,445,Thursday,56.37243321
+2023-01-19 14:00:00,446,8,5,7.64143207,South,Credit Card,True,Rainy,34.83825025,Good,Positive,35,Phone Order,446,446,Thursday,38.20716035
+2023-01-19 15:00:00,447,6,2,8.20935558,South,Cash,True,Cloudy,27.154342182855554,Average,Negative,32,Online Order,447,447,Thursday,16.41871116
+2023-01-19 16:00:00,448,4,4,5.195443516,West,Credit Card,True,Sunny,20.7002723,Average,Positive,53,Online Order,448,448,Thursday,20.78177407
+2023-01-19 17:00:00,449,8,5,5.212850741,East,Cash,False,Rainy,31.69297523,Excellent,Negative,29,In Store,449,449,Thursday,26.0642537
+2023-01-19 18:00:00,450,4,4,17.4408744,East,Cash,False,Sunny,23.7887901,Poor,unknown,52,Phone Order,450,450,Thursday,69.76349762
+2023-01-19 19:00:00,451,6,4,15.9818391,North,Credit Card,False,Sunny,32.44465708,Average,Positive,38,Online Order,451,451,Thursday,63.92735641
+2023-01-19 20:00:00,452,8,2,10.32561585,East,Credit Card,False,Sunny,30.55905001,Good,unknown,22,In Store,452,452,Thursday,20.65123169
+2023-01-19 21:00:00,453,1,3,15.47466736,North,Credit Card,True,Sunny,34.18510306,Excellent,Neutral,42,Online Order,453,453,Thursday,46.42400208
+2023-01-19 22:00:00,454,5,2,10.92808889,West,Cash,True,Rainy,26.13390854,Average,Neutral,35,In Store,454,454,Thursday,21.85617779
+2023-01-19 23:00:00,455,0,5,19.29345194,East,Online,True,Sunny,29.92954759,Average,Neutral,30,Phone Order,455,455,Thursday,96.4672597
+2023-01-20 00:00:00,456,7,5,19.50579022,South,Credit Card,True,Cloudy,26.97282171,Good,Positive,30,In Store,456,456,Friday,97.52895111
+2023-01-20 01:00:00,457,2,5,10.89190664,West,Credit Card,True,Rainy,29.45883046,Average,Positive,49,Online Order,457,457,Friday,54.45953319
+2023-01-20 02:00:00,458,7,2,17.8133286,North,Credit Card,True,Sunny,26.74398359,Average,Neutral,31,Online Order,458,458,Friday,35.62665719
+2023-01-20 03:00:00,459,7,4,16.59633563,West,Cash,False,Rainy,22.8294837,Average,Positive,23,Phone Order,459,459,Friday,66.3853425
+2023-01-20 04:00:00,460,8,4,9.649999058,North,Cash,False,Cloudy,27.61846124,Average,unknown,49,Phone Order,460,460,Friday,38.59999623
+2023-01-20 05:00:00,461,1,1,8.480597434,West,Online,True,Sunny,27.154342182855554,Good,Neutral,43,Online Order,461,461,Friday,8.480597434
+2023-01-20 06:00:00,462,0,5,11.87351976,North,Credit Card,False,Cloudy,32.15905772,Average,Negative,53,Online Order,462,462,Friday,59.36759878
+2023-01-20 07:00:00,463,5,4,16.72023261,East,Cash,True,Sunny,31.03281059,Average,unknown,32,Online Order,463,463,Friday,66.88093044
+2023-01-20 08:00:00,464,5,1,19.40251677,South,Online,True,Cloudy,29.95687436,Average,Positive,26,Phone Order,464,464,Friday,19.40251677
+2023-01-20 09:00:00,465,6,4,16.45368603,North,Credit Card,False,Sunny,21.70080643,Excellent,Positive,33,Online Order,465,465,Friday,65.81474413
+2023-01-20 10:00:00,466,2,5,17.82810478,West,Cash,True,Rainy,30.80924436,Good,Positive,36,Phone Order,466,466,Friday,89.14052388
+2023-01-20 11:00:00,467,4,3,14.04596459,North,Credit Card,True,Sunny,27.50457735,Excellent,Negative,29,Online Order,467,467,Friday,42.13789378
+2023-01-20 12:00:00,468,1,5,17.53111746,North,Credit Card,True,Rainy,27.154342182855554,Excellent,unknown,15,In Store,468,468,Friday,87.65558731
+2023-01-20 13:00:00,469,4,2,16.76631287,North,Cash,False,Sunny,33.79806401,Good,unknown,16,In Store,469,469,Friday,33.53262574
+2023-01-20 14:00:00,470,0,4,10.65478313,West,Cash,False,Sunny,20.82734886,Excellent,Neutral,22,Online Order,470,470,Friday,42.61913252
+2023-01-20 15:00:00,471,7,4,13.27985453,South,Cash,False,Cloudy,27.154342182855554,Excellent,Positive,36,In Store,471,471,Friday,53.11941813
+2023-01-20 16:00:00,472,5,2,17.07129683,East,Credit Card,False,Cloudy,20.56546086,Excellent,Negative,39,Phone Order,472,472,Friday,34.14259366
+2023-01-20 17:00:00,473,0,2,5.690851013,South,Credit Card,True,Cloudy,25.50754439,Good,Neutral,16,In Store,473,473,Friday,11.38170203
+2023-01-20 18:00:00,474,7,3,17.12118924,North,Online,False,Sunny,28.13449963,Average,Negative,23,In Store,474,474,Friday,51.36356771
+2023-01-20 19:00:00,475,5,4,7.668321861,West,Credit Card,False,Sunny,22.22151198,Poor,Positive,23,Phone Order,475,475,Friday,30.67328744
+2023-01-20 20:00:00,476,7,4,12.72025426,South,Cash,False,Sunny,31.19470719,Poor,Negative,27,In Store,476,476,Friday,50.88101703
+2023-01-20 21:00:00,477,2,3,17.12413159,North,Credit Card,True,Rainy,20.12532056,Good,Negative,20,In Store,477,477,Friday,51.37239478
+2023-01-20 22:00:00,478,1,1,8.807316172,East,Online,False,Rainy,27.154342182855554,Poor,Positive,44,Online Order,478,478,Friday,8.807316172
+2023-01-20 23:00:00,479,0,3,8.68711159,East,Online,False,Sunny,28.71195245,Good,Positive,29,Phone Order,479,479,Friday,26.06133477
+2023-01-21 00:00:00,480,0,5,11.04146598,East,Cash,True,Cloudy,30.71581343,Good,Neutral,29,Phone Order,480,480,Saturday,55.20732988
+2023-01-21 01:00:00,481,3,4,18.41964196,North,Cash,True,Cloudy,33.74964654,Poor,Positive,21,Online Order,481,481,Saturday,73.67856785
+2023-01-21 02:00:00,482,8,2,5.006641722,West,Online,True,Cloudy,30.58244978,Excellent,Neutral,25,Online Order,482,482,Saturday,10.01328344
+2023-01-21 03:00:00,483,2,5,18.52074645,South,Online,True,Sunny,30.07668905,Average,Negative,54,In Store,483,483,Saturday,92.60373225
+2023-01-21 04:00:00,484,2,4,7.30710537,East,Online,False,Cloudy,25.9151172,Poor,unknown,52,In Store,484,484,Saturday,29.22842148
+2023-01-21 05:00:00,485,4,3,19.85129564,North,Cash,True,Sunny,20.01926638,Poor,unknown,54,In Store,485,485,Saturday,59.55388692
+2023-01-21 06:00:00,486,7,5,19.3227049,North,Online,False,Rainy,21.80238888,Poor,unknown,16,Online Order,486,486,Saturday,96.61352448
+2023-01-21 07:00:00,487,8,4,12.42012784,South,Online,False,Cloudy,28.01831817,Poor,Positive,53,Phone Order,487,487,Saturday,49.68051138
+2023-01-21 08:00:00,488,1,1,12.69080372,East,Cash,False,Rainy,30.12694829,Good,Negative,24,In Store,488,488,Saturday,12.69080372
+2023-01-21 09:00:00,489,1,1,12.2232401,North,Credit Card,False,Cloudy,26.26172426,Good,Neutral,58,Online Order,489,489,Saturday,12.2232401
+2023-01-21 10:00:00,490,2,2,14.53165468,South,Credit Card,False,Sunny,30.96018517,Average,Negative,31,Phone Order,490,490,Saturday,29.06330937
+2023-01-21 11:00:00,491,1,4,6.360825534,West,Online,True,Sunny,27.82793443,Average,Negative,21,Online Order,491,491,Saturday,25.44330213
+2023-01-21 12:00:00,492,3,1,5.489269225,West,Credit Card,False,Sunny,21.11264293,Poor,Positive,54,In Store,492,492,Saturday,5.489269225
+2023-01-21 13:00:00,493,0,3,5.865543926,West,Credit Card,False,Sunny,22.88024376,Poor,Neutral,53,Online Order,493,493,Saturday,17.59663178
+2023-01-21 14:00:00,494,6,4,11.66548024,East,Credit Card,False,Cloudy,32.59997335,Poor,Negative,18,Online Order,494,494,Saturday,46.66192095
+2023-01-21 15:00:00,495,4,3,9.133219088,South,Credit Card,True,Rainy,30.8736912,Average,Positive,49,Online Order,495,495,Saturday,27.39965726
+2023-01-21 16:00:00,496,7,3,14.33059344,South,Online,False,Sunny,33.42142981,Poor,Negative,50,Online Order,496,496,Saturday,42.99178031
+2023-01-21 17:00:00,497,7,1,19.88663434,North,Credit Card,False,Cloudy,21.76335874,Excellent,Negative,45,Phone Order,497,497,Saturday,19.88663434
+2023-01-21 18:00:00,498,5,4,10.7948476,North,Credit Card,True,Rainy,34.85333802,Average,Positive,39,In Store,498,498,Saturday,43.17939038
+2023-01-21 19:00:00,499,6,5,13.60761881,North,Cash,False,Sunny,23.14110071,Excellent,Positive,55,Phone Order,499,499,Saturday,68.03809406
+2023-01-21 20:00:00,500,2,1,11.23405844,South,Online,False,Rainy,20.17669814,Poor,Neutral,27,Online Order,500,500,Saturday,11.23405844
+2023-01-21 21:00:00,501,3,1,17.70907502,North,Cash,True,Sunny,34.96134409,Good,Negative,32,Online Order,501,501,Saturday,17.70907502
+2023-01-21 22:00:00,502,0,4,18.53354605,South,Cash,False,Rainy,24.21610828,Excellent,Neutral,35,In Store,502,502,Saturday,74.13418421
+2023-01-21 23:00:00,503,0,4,18.16033418,South,Online,False,Rainy,27.154342182855554,Average,Positive,15,In Store,503,503,Saturday,72.64133673
+2023-01-22 00:00:00,504,3,3,19.61558358,West,Credit Card,False,Sunny,22.65023471,Excellent,Positive,50,Phone Order,504,504,Sunday,58.84675074
+2023-01-22 01:00:00,505,8,4,5.412787777,North,Cash,False,Cloudy,28.70342798,Average,Negative,22,Phone Order,505,505,Sunday,21.65115111
+2023-01-22 02:00:00,506,5,3,17.59724243,West,Online,False,Rainy,33.5605248,Poor,Neutral,35,In Store,506,506,Sunday,52.7917273
+2023-01-22 03:00:00,507,7,1,16.2765826,East,Credit Card,True,Sunny,24.80271751,Excellent,Neutral,57,Phone Order,507,507,Sunday,16.2765826
+2023-01-22 04:00:00,508,6,2,8.430416141,East,Online,True,Rainy,30.05380964,Good,Negative,35,Online Order,508,508,Sunday,16.86083228
+2023-01-22 05:00:00,509,1,5,19.3448014,East,Cash,True,Rainy,22.81855383,Excellent,Negative,41,Online Order,509,509,Sunday,96.724007
+2023-01-22 06:00:00,510,5,1,7.222668923,South,Credit Card,False,Cloudy,29.37193098,Good,Neutral,33,In Store,510,510,Sunday,7.222668923
+2023-01-22 07:00:00,511,6,4,15.19324891,South,Credit Card,False,Rainy,27.154342182855554,Average,Positive,37,Phone Order,511,511,Sunday,60.77299563
+2023-01-22 08:00:00,512,4,5,8.373353252,South,Online,False,Rainy,23.16812388,Poor,Positive,57,Online Order,512,512,Sunday,41.86676626
+2023-01-22 09:00:00,513,4,2,11.47070973,North,Credit Card,True,Sunny,24.69773076,Poor,Negative,49,In Store,513,513,Sunday,22.94141946
+2023-01-22 10:00:00,514,5,2,15.78739845,West,Cash,False,Sunny,22.68261603,Good,Neutral,54,Phone Order,514,514,Sunday,31.57479691
+2023-01-22 11:00:00,515,2,3,13.44986963,South,Cash,False,Cloudy,33.52874162,Average,unknown,56,Online Order,515,515,Sunday,40.34960889
+2023-01-22 12:00:00,516,6,5,11.41252747,West,Cash,False,Rainy,25.95780329,Poor,Neutral,19,Phone Order,516,516,Sunday,57.06263735
+2023-01-22 13:00:00,517,6,3,9.895076464,West,Online,True,Rainy,23.67918957,Average,unknown,55,Phone Order,517,517,Sunday,29.68522939
+2023-01-22 14:00:00,518,3,1,17.59489484,West,Credit Card,True,Rainy,26.72611762,Good,Positive,22,Phone Order,518,518,Sunday,17.59489484
+2023-01-22 15:00:00,519,2,5,7.157215255,North,Credit Card,False,Cloudy,24.8080425,Good,Neutral,25,In Store,519,519,Sunday,35.78607627
+2023-01-22 16:00:00,520,7,1,11.45154315,North,Credit Card,False,Rainy,31.16628881,Excellent,Neutral,30,Online Order,520,520,Sunday,11.45154315
+2023-01-22 17:00:00,521,7,3,18.55636358,East,Cash,False,Sunny,34.56829868,Poor,Negative,53,In Store,521,521,Sunday,55.66909073
+2023-01-22 18:00:00,522,1,5,17.68774326,East,Credit Card,True,Cloudy,26.57050485,Poor,unknown,38,Online Order,522,522,Sunday,88.43871628
+2023-01-22 19:00:00,523,0,3,11.01412644,West,Cash,True,Sunny,32.915501,Excellent,Neutral,35,Online Order,523,523,Sunday,33.04237931
+2023-01-22 20:00:00,524,4,5,16.44662545,East,Credit Card,True,Sunny,28.4879461,Good,Neutral,37,In Store,524,524,Sunday,82.23312727
+2023-01-22 21:00:00,525,7,3,17.34741246,West,Cash,False,Cloudy,22.35853498,Good,unknown,52,In Store,525,525,Sunday,52.04223738
+2023-01-22 22:00:00,526,2,2,18.33331136,North,Credit Card,True,Sunny,30.35934113,Good,Neutral,22,Online Order,526,526,Sunday,36.66662272
+2023-01-22 23:00:00,527,6,3,13.16758654,North,Online,False,Rainy,27.70151746,Good,Negative,21,Online Order,527,527,Sunday,39.50275961
+2023-01-23 00:00:00,528,7,2,8.066913291,North,Online,False,Cloudy,29.75909785,Average,Positive,16,Online Order,528,528,Monday,16.13382658
+2023-01-23 01:00:00,529,6,3,8.829636148,South,Cash,True,Sunny,33.34531119,Poor,Negative,44,Phone Order,529,529,Monday,26.48890844
+2023-01-23 02:00:00,530,7,5,9.435420111,West,Cash,False,Rainy,27.154342182855554,Poor,unknown,27,Online Order,530,530,Monday,47.17710055
+2023-01-23 03:00:00,531,4,5,13.90703721,North,Credit Card,True,Rainy,33.51766435,Good,Positive,37,In Store,531,531,Monday,69.53518606
+2023-01-23 04:00:00,532,7,5,5.492144362,West,Credit Card,False,Sunny,31.26003521,Good,Negative,43,In Store,532,532,Monday,27.46072181
+2023-01-23 05:00:00,533,2,4,14.54063703,East,Online,False,Rainy,27.32907389,Good,Neutral,52,In Store,533,533,Monday,58.16254813
+2023-01-23 06:00:00,534,7,1,10.46531358,East,Credit Card,True,Cloudy,29.04833203,Poor,Negative,51,Online Order,534,534,Monday,10.46531358
+2023-01-23 07:00:00,535,0,5,9.428627037,North,Cash,False,Sunny,24.88371699,Poor,Positive,34,Online Order,535,535,Monday,47.14313519
+2023-01-23 08:00:00,536,4,2,18.19244856,West,Cash,False,Rainy,34.7539595,Good,Positive,47,Phone Order,536,536,Monday,36.38489712
+2023-01-23 09:00:00,537,2,5,11.90003593,North,Cash,False,Rainy,30.01026745,Average,Positive,43,Phone Order,537,537,Monday,59.50017967
+2023-01-23 10:00:00,538,3,4,6.425795683,East,Cash,False,Sunny,20.65770279,Excellent,Negative,29,In Store,538,538,Monday,25.70318273
+2023-01-23 11:00:00,539,2,2,17.40120152,North,Cash,False,Sunny,24.89932859,Excellent,Neutral,37,Phone Order,539,539,Monday,34.80240304
+2023-01-23 12:00:00,540,0,4,5.714618862,West,Online,False,Sunny,29.34971651,Excellent,Positive,56,Phone Order,540,540,Monday,22.85847545
+2023-01-23 13:00:00,541,4,2,15.90123836,East,Online,False,Sunny,20.84499917,Poor,Neutral,17,In Store,541,541,Monday,31.80247673
+2023-01-23 14:00:00,542,3,3,16.60859333,South,Cash,False,Cloudy,20.35826287,Poor,Positive,51,Online Order,542,542,Monday,49.82577998
+2023-01-23 15:00:00,543,0,1,10.28903909,East,Credit Card,True,Sunny,26.75036359,Excellent,Neutral,43,Phone Order,543,543,Monday,10.28903909
+2023-01-23 16:00:00,544,0,1,17.37181784,South,Cash,True,Cloudy,24.9903527,Excellent,Neutral,59,Online Order,544,544,Monday,17.37181784
+2023-01-23 17:00:00,545,5,4,12.73489109,North,Online,False,Cloudy,26.57447912,Average,Neutral,22,In Store,545,545,Monday,50.93956435
+2023-01-23 18:00:00,546,4,1,11.9494048,North,Cash,False,Sunny,23.94039965,Poor,unknown,36,In Store,546,546,Monday,11.9494048
+2023-01-23 19:00:00,547,2,4,5.681049222,West,Online,True,Cloudy,27.154342182855554,Poor,Negative,43,Phone Order,547,547,Monday,22.72419689
+2023-01-23 20:00:00,548,6,4,9.350437905,South,Online,False,Sunny,30.33715035,Excellent,Negative,16,In Store,548,548,Monday,37.40175162
+2023-01-23 21:00:00,549,6,4,18.96514956,North,Cash,True,Sunny,27.71856674,Average,Negative,55,In Store,549,549,Monday,75.86059825
+2023-01-23 22:00:00,550,2,1,10.87735945,South,Cash,True,Rainy,23.00231317,Average,Neutral,59,In Store,550,550,Monday,10.87735945
+2023-01-23 23:00:00,551,2,4,13.20050781,North,Credit Card,True,Sunny,24.79384139,Excellent,Positive,15,Phone Order,551,551,Monday,52.80203123
+2023-01-24 00:00:00,552,4,1,12.98032518,East,Online,False,Rainy,27.154342182855554,Excellent,Neutral,58,Phone Order,552,552,Tuesday,12.98032518
+2023-01-24 01:00:00,553,2,4,13.85646635,North,Credit Card,False,Cloudy,21.08344022,Poor,Positive,34,Phone Order,553,553,Tuesday,55.42586539
+2023-01-24 02:00:00,554,5,5,5.919964335,West,Cash,False,Rainy,22.21179514,Excellent,Neutral,35,In Store,554,554,Tuesday,29.59982167
+2023-01-24 03:00:00,555,3,4,10.43264382,East,Online,True,Cloudy,21.09868406,Good,unknown,51,Online Order,555,555,Tuesday,41.73057529
+2023-01-24 04:00:00,556,2,2,15.84692411,West,Credit Card,True,Sunny,32.18475999,Average,Positive,22,In Store,556,556,Tuesday,31.69384822
+2023-01-24 05:00:00,557,6,4,8.008403766,East,Credit Card,True,Cloudy,27.154342182855554,Excellent,Positive,41,Phone Order,557,557,Tuesday,32.03361506
+2023-01-24 06:00:00,558,2,3,8.053675663,South,Credit Card,False,Cloudy,31.29969398,Good,Neutral,49,Online Order,558,558,Tuesday,24.16102699
+2023-01-24 07:00:00,559,5,4,5.1513591,West,Cash,True,Sunny,30.74488015,Average,Negative,20,Online Order,559,559,Tuesday,20.6054364
+2023-01-24 08:00:00,560,7,2,11.5622289,North,Cash,True,Cloudy,30.04078136,Good,Neutral,59,Phone Order,560,560,Tuesday,23.1244578
+2023-01-24 09:00:00,561,7,2,18.24101571,South,Cash,False,Sunny,27.15487873,Good,Neutral,58,Online Order,561,561,Tuesday,36.48203142
+2023-01-24 10:00:00,562,0,1,5.778514154,North,Online,True,Rainy,29.63417245,Excellent,Positive,33,Online Order,562,562,Tuesday,5.778514154
+2023-01-24 11:00:00,563,1,5,7.866780642,East,Cash,True,Sunny,20.57542332,Average,Positive,32,Phone Order,563,563,Tuesday,39.33390321
+2023-01-24 12:00:00,564,3,4,9.651268075,East,Online,False,Sunny,29.32196634,Good,Negative,15,Online Order,564,564,Tuesday,38.6050723
+2023-01-24 13:00:00,565,8,1,15.97587105,North,Credit Card,False,Cloudy,31.66816558,Poor,Negative,39,Online Order,565,565,Tuesday,15.97587105
+2023-01-24 14:00:00,566,0,5,14.60953389,North,Credit Card,True,Rainy,27.50537541,Average,Positive,41,Phone Order,566,566,Tuesday,73.04766946
+2023-01-24 15:00:00,567,7,4,11.23915857,South,Cash,False,Sunny,25.36269993,Poor,unknown,21,Online Order,567,567,Tuesday,44.95663427
+2023-01-24 16:00:00,568,6,3,16.38603409,North,Credit Card,True,Rainy,24.16140102,Excellent,Negative,58,Online Order,568,568,Tuesday,49.15810227
+2023-01-24 17:00:00,569,8,4,14.14446517,West,Cash,False,Rainy,29.64203075,Poor,Positive,56,Online Order,569,569,Tuesday,56.5778607
+2023-01-24 18:00:00,570,0,2,18.44061199,West,Online,True,Cloudy,30.39201798,Average,Neutral,43,Online Order,570,570,Tuesday,36.88122399
+2023-01-24 19:00:00,571,8,2,17.27040124,North,Credit Card,False,Sunny,33.064514,Good,Negative,45,Phone Order,571,571,Tuesday,34.54080247
+2023-01-24 20:00:00,572,4,3,8.792204091,West,Cash,True,Cloudy,25.13501124,Good,Positive,58,In Store,572,572,Tuesday,26.37661227
+2023-01-24 21:00:00,573,1,1,9.071578665,North,Credit Card,False,Sunny,31.54658461,Average,Negative,57,In Store,573,573,Tuesday,9.071578665
+2023-01-24 22:00:00,574,4,5,6.880347137,South,Credit Card,False,Rainy,28.42033736,Good,Negative,50,Online Order,574,574,Tuesday,34.40173568
+2023-01-24 23:00:00,575,8,4,10.05447089,West,Cash,False,Sunny,33.24254736,Poor,Positive,33,Phone Order,575,575,Tuesday,40.21788354
+2023-01-25 00:00:00,576,4,2,19.99315878,West,Credit Card,False,Sunny,27.91718162,Good,unknown,20,Phone Order,576,576,Wednesday,39.98631756
+2023-01-25 01:00:00,577,5,1,11.08626753,North,Credit Card,False,Rainy,27.76444743,Good,Negative,39,Online Order,577,577,Wednesday,11.08626753
+2023-01-25 02:00:00,578,7,3,8.30732652,West,Credit Card,False,Rainy,27.154342182855554,Poor,Negative,45,In Store,578,578,Wednesday,24.92197956
+2023-01-25 03:00:00,579,5,2,16.43724327,East,Credit Card,False,Sunny,31.23973033,Poor,Neutral,23,Online Order,579,579,Wednesday,32.87448653
+2023-01-25 04:00:00,580,2,3,13.13706505,South,Online,True,Cloudy,34.47035718,Poor,Neutral,34,Phone Order,580,580,Wednesday,39.41119516
+2023-01-25 05:00:00,581,4,4,7.244021743,South,Credit Card,True,Sunny,21.10345031,Excellent,Negative,24,Phone Order,581,581,Wednesday,28.97608697
+2023-01-25 06:00:00,582,2,5,10.71034522,West,Credit Card,False,Rainy,20.80151904,Poor,Positive,51,In Store,582,582,Wednesday,53.55172609
+2023-01-25 07:00:00,583,6,2,11.21704573,West,Cash,False,Cloudy,34.06325506,Poor,Negative,41,Phone Order,583,583,Wednesday,22.43409147
+2023-01-25 08:00:00,584,3,2,16.30744551,East,Online,True,Rainy,27.94813438,Excellent,Negative,27,Phone Order,584,584,Wednesday,32.61489102
+2023-01-25 09:00:00,585,6,4,5.310070533,East,Cash,True,Rainy,29.22354522,Good,unknown,55,Phone Order,585,585,Wednesday,21.24028213
+2023-01-25 10:00:00,586,8,1,9.035294702,West,Cash,False,Cloudy,27.23635402,Poor,Neutral,16,In Store,586,586,Wednesday,9.035294702
+2023-01-25 11:00:00,587,7,5,12.76394452,West,Cash,True,Rainy,21.40486179,Average,Neutral,35,Phone Order,587,587,Wednesday,63.8197226
+2023-01-25 12:00:00,588,4,2,9.032701137,East,Online,True,Rainy,31.52134068,Poor,Negative,47,Online Order,588,588,Wednesday,18.06540227
+2023-01-25 13:00:00,589,0,5,14.42651071,North,Cash,False,Rainy,31.20836968,Poor,Negative,38,In Store,589,589,Wednesday,72.13255356
+2023-01-25 14:00:00,590,3,2,12.22801219,East,Cash,False,Rainy,24.67554982,Excellent,Positive,58,Online Order,590,590,Wednesday,24.45602438
+2023-01-25 15:00:00,591,1,5,10.42565382,North,Cash,False,Rainy,24.59358868,Average,unknown,56,Online Order,591,591,Wednesday,52.12826911
+2023-01-25 16:00:00,592,1,3,19.2381294,South,Credit Card,True,Rainy,32.56762071,Good,Negative,48,In Store,592,592,Wednesday,57.71438821
+2023-01-25 17:00:00,593,1,2,14.48239249,South,Cash,False,Rainy,21.08535887,Good,Neutral,23,Online Order,593,593,Wednesday,28.96478498
+2023-01-25 18:00:00,594,4,5,6.949120584,East,Online,False,Rainy,33.21657723,Average,Neutral,16,In Store,594,594,Wednesday,34.74560292
+2023-01-25 19:00:00,595,1,1,13.40137546,North,Online,True,Rainy,23.84992535,Poor,Neutral,44,Online Order,595,595,Wednesday,13.40137546
+2023-01-25 20:00:00,596,5,3,16.7109778,East,Credit Card,False,Sunny,28.89477122,Excellent,Neutral,36,In Store,596,596,Wednesday,50.13293339
+2023-01-25 21:00:00,597,3,3,15.62734546,East,Online,True,Sunny,27.154342182855554,Average,Neutral,25,Phone Order,597,597,Wednesday,46.88203639
+2023-01-25 22:00:00,598,5,1,7.581338439,North,Online,True,Rainy,30.17183752,Average,Positive,57,Phone Order,598,598,Wednesday,7.581338439
+2023-01-25 23:00:00,599,3,5,19.58629999,East,Credit Card,True,Sunny,26.21644719,Good,Positive,31,Online Order,599,599,Wednesday,97.93149993
+2023-01-26 00:00:00,600,5,4,11.73220469,South,Cash,True,Cloudy,30.34301313,Excellent,Positive,50,Phone Order,600,600,Thursday,46.92881874
+2023-01-26 01:00:00,601,3,1,7.385375056,West,Credit Card,True,Sunny,25.15969454,Average,Neutral,27,In Store,601,601,Thursday,7.385375056
+2023-01-26 02:00:00,602,2,5,7.702936312,West,Cash,True,Rainy,24.15887625,Excellent,Neutral,21,Online Order,602,602,Thursday,38.51468156
+2023-01-26 03:00:00,603,4,1,6.473524883,East,Cash,False,Rainy,34.95024917,Poor,Neutral,30,Phone Order,603,603,Thursday,6.473524883
+2023-01-26 04:00:00,604,4,1,17.05277163,North,Online,False,Sunny,31.26185347,Good,Positive,47,Phone Order,604,604,Thursday,17.05277163
+2023-01-26 05:00:00,605,1,2,6.830457415,North,Credit Card,False,Rainy,29.67079966,Poor,Neutral,59,Online Order,605,605,Thursday,13.66091483
+2023-01-26 06:00:00,606,6,5,6.876878857,South,Online,True,Cloudy,25.32934465,Excellent,Positive,15,Phone Order,606,606,Thursday,34.38439429
+2023-01-26 07:00:00,607,1,4,17.75707422,North,Online,False,Cloudy,20.73741244,Poor,unknown,25,Phone Order,607,607,Thursday,71.02829689
+2023-01-26 08:00:00,608,8,2,10.16906127,North,Cash,True,Rainy,20.46585314,Good,Negative,20,Online Order,608,608,Thursday,20.33812253
+2023-01-26 09:00:00,609,5,1,5.462868565,South,Online,False,Cloudy,28.31271883,Excellent,Positive,34,Phone Order,609,609,Thursday,5.462868565
+2023-01-26 10:00:00,610,3,1,5.778429493,East,Credit Card,True,Cloudy,31.43049082,Average,Negative,49,Phone Order,610,610,Thursday,5.778429493
+2023-01-26 11:00:00,611,6,1,7.132556701,West,Online,False,Sunny,28.06068786,Poor,unknown,58,Phone Order,611,611,Thursday,7.132556701
+2023-01-26 12:00:00,612,8,5,8.20090022,South,Online,True,Cloudy,32.61177608,Good,Neutral,51,Phone Order,612,612,Thursday,41.0045011
+2023-01-26 13:00:00,613,4,5,14.97719291,East,Cash,False,Sunny,20.501398,Average,Neutral,55,Online Order,613,613,Thursday,74.88596457
+2023-01-26 14:00:00,614,4,2,7.3598942,South,Credit Card,True,Rainy,25.50128115,Good,Negative,40,In Store,614,614,Thursday,14.7197884
+2023-01-26 15:00:00,615,1,4,6.783115868,East,Online,False,Sunny,23.55605587,Excellent,Neutral,26,In Store,615,615,Thursday,27.13246347
+2023-01-26 16:00:00,616,5,2,16.47078712,South,Cash,True,Rainy,26.70909452,Excellent,Positive,44,Phone Order,616,616,Thursday,32.94157424
+2023-01-26 17:00:00,617,6,3,15.06582926,East,Online,False,Rainy,21.0856459,Poor,Neutral,42,Phone Order,617,617,Thursday,45.19748777
+2023-01-26 18:00:00,618,7,1,11.52986332,South,Credit Card,False,Rainy,34.31197462,Good,Neutral,41,In Store,618,618,Thursday,11.52986332
+2023-01-26 19:00:00,619,8,1,13.23964657,East,Online,False,Rainy,23.34883102,Good,unknown,56,Phone Order,619,619,Thursday,13.23964657
+2023-01-26 20:00:00,620,8,1,9.679760305,South,Online,True,Rainy,27.154342182855554,Good,Negative,33,In Store,620,620,Thursday,9.679760305
+2023-01-26 21:00:00,621,1,2,12.2375063,West,Cash,True,Sunny,26.38839733,Excellent,Negative,19,Online Order,621,621,Thursday,24.47501261
+2023-01-26 22:00:00,622,4,2,12.60008973,West,Online,True,Rainy,27.154342182855554,Poor,Neutral,19,Online Order,622,622,Thursday,25.20017947
+2023-01-26 23:00:00,623,1,1,10.80855907,North,Cash,True,Cloudy,27.154342182855554,Good,Positive,55,Online Order,623,623,Thursday,10.80855907
+2023-01-27 00:00:00,624,3,2,18.59858316,East,Credit Card,True,Cloudy,33.96249296,Good,Negative,41,Online Order,624,624,Friday,37.19716632
+2023-01-27 01:00:00,625,6,5,5.240927975,South,Online,False,Rainy,20.08023483,Average,Negative,42,Online Order,625,625,Friday,26.20463987
+2023-01-27 02:00:00,626,5,5,16.73256895,East,Credit Card,True,Cloudy,31.22358209,Good,Neutral,40,Online Order,626,626,Friday,83.66284473
+2023-01-27 03:00:00,627,2,2,6.865742469,West,Credit Card,False,Sunny,33.5457598,Poor,Positive,41,In Store,627,627,Friday,13.73148494
+2023-01-27 04:00:00,628,0,1,16.96321041,East,Online,False,Sunny,22.0958085,Average,Negative,56,Phone Order,628,628,Friday,16.96321041
+2023-01-27 05:00:00,629,0,2,14.23867874,South,Cash,True,Rainy,21.44188778,Average,Neutral,35,In Store,629,629,Friday,28.47735747
+2023-01-27 06:00:00,630,1,2,17.64917136,East,Credit Card,False,Rainy,26.36858911,Average,Neutral,15,Online Order,630,630,Friday,35.29834273
+2023-01-27 07:00:00,631,3,2,6.462714885,South,Credit Card,True,Rainy,34.00518359,Excellent,Neutral,42,Phone Order,631,631,Friday,12.92542977
+2023-01-27 08:00:00,632,6,3,13.38470951,West,Online,True,Cloudy,28.1357984,Average,Neutral,29,Phone Order,632,632,Friday,40.15412853
+2023-01-27 09:00:00,633,7,5,12.5163182,West,Online,True,Cloudy,27.154342182855554,Good,Negative,31,Online Order,633,633,Friday,62.58159102
+2023-01-27 10:00:00,634,0,4,15.59289774,West,Online,False,Sunny,22.11689177,Excellent,Positive,40,Online Order,634,634,Friday,62.37159098
+2023-01-27 11:00:00,635,6,4,13.01435828,North,Online,True,Cloudy,20.01184267,Excellent,Neutral,34,Online Order,635,635,Friday,52.05743311
+2023-01-27 12:00:00,636,5,3,13.11101851,West,Online,True,Sunny,32.15210136,Excellent,Neutral,39,Online Order,636,636,Friday,39.33305552
+2023-01-27 13:00:00,637,3,2,11.44393915,East,Online,True,Cloudy,21.31361844,Excellent,Negative,27,Online Order,637,637,Friday,22.88787831
+2023-01-27 14:00:00,638,4,3,9.63251636,North,Cash,False,Sunny,29.50774728,Excellent,Neutral,47,Online Order,638,638,Friday,28.89754908
+2023-01-27 15:00:00,639,6,3,12.23396542,West,Credit Card,True,Rainy,27.154342182855554,Excellent,Neutral,39,Phone Order,639,639,Friday,36.70189626
+2023-01-27 16:00:00,640,5,1,6.777385382,East,Cash,False,Cloudy,23.1297787,Excellent,Positive,22,Online Order,640,640,Friday,6.777385382
+2023-01-27 17:00:00,641,7,5,19.42270008,East,Cash,False,Sunny,29.97909254,Average,Neutral,19,Online Order,641,641,Friday,97.11350042
+2023-01-27 18:00:00,642,2,4,15.71616145,East,Online,True,Cloudy,21.18047865,Poor,Negative,20,Phone Order,642,642,Friday,62.86464582
+2023-01-27 19:00:00,643,4,2,19.28700675,South,Credit Card,False,Rainy,29.05632716,Good,Positive,37,In Store,643,643,Friday,38.5740135
+2023-01-27 20:00:00,644,2,4,8.400910735,North,Cash,False,Sunny,22.45897581,Good,Negative,44,Online Order,644,644,Friday,33.60364294
+2023-01-27 21:00:00,645,7,4,18.1901153,East,Online,True,Cloudy,31.03930341,Average,Positive,28,Phone Order,645,645,Friday,72.76046121
+2023-01-27 22:00:00,646,5,5,17.13184977,South,Online,True,Cloudy,24.51846942,Average,Positive,37,Phone Order,646,646,Friday,85.65924884
+2023-01-27 23:00:00,647,0,4,15.15728619,West,Credit Card,True,Rainy,26.95086513,Excellent,Neutral,25,In Store,647,647,Friday,60.62914475
+2023-01-28 00:00:00,648,2,4,14.37543779,East,Cash,False,Rainy,28.99145813,Poor,Neutral,45,Online Order,648,648,Saturday,57.50175117
+2023-01-28 01:00:00,649,4,3,9.748244979,South,Cash,True,Sunny,22.56910116,Excellent,Neutral,20,Online Order,649,649,Saturday,29.24473494
+2023-01-28 02:00:00,650,1,5,17.24616177,East,Cash,False,Cloudy,31.12456728,Average,Negative,25,Online Order,650,650,Saturday,86.23080887
+2023-01-28 03:00:00,651,8,1,12.52273192,North,Online,False,Cloudy,24.53960511,Excellent,Neutral,27,Phone Order,651,651,Saturday,12.52273192
+2023-01-28 04:00:00,652,6,2,6.063373638,North,Credit Card,False,Rainy,29.9355779,Good,Neutral,26,Online Order,652,652,Saturday,12.12674728
+2023-01-28 05:00:00,653,0,4,9.692947413,West,Credit Card,False,Rainy,22.37424576,Good,Positive,16,Online Order,653,653,Saturday,38.77178965
+2023-01-28 06:00:00,654,2,2,19.02945648,East,Cash,False,Sunny,30.32176489,Excellent,Neutral,49,Online Order,654,654,Saturday,38.05891296
+2023-01-28 07:00:00,655,6,1,17.76020391,South,Online,True,Cloudy,21.92282109,Poor,Neutral,50,Online Order,655,655,Saturday,17.76020391
+2023-01-28 08:00:00,656,1,2,19.72858547,West,Cash,True,Cloudy,26.38034744,Excellent,Neutral,31,In Store,656,656,Saturday,39.45717094
+2023-01-28 09:00:00,657,7,1,14.41990074,East,Credit Card,False,Sunny,23.70809111,Excellent,Neutral,42,In Store,657,657,Saturday,14.41990074
+2023-01-28 10:00:00,658,8,3,8.712651097,West,Online,False,Sunny,31.22562874,Poor,Positive,42,In Store,658,658,Saturday,26.13795329
+2023-01-28 11:00:00,659,5,4,7.442225745,South,Cash,True,Rainy,23.93052507,Poor,Neutral,36,Online Order,659,659,Saturday,29.76890298
+2023-01-28 12:00:00,660,1,1,7.803716609,West,Cash,True,Rainy,33.2257596,Poor,Positive,52,Online Order,660,660,Saturday,7.803716609
+2023-01-28 13:00:00,661,1,2,5.296934875,West,Online,False,Sunny,33.37730317,Good,Negative,21,Phone Order,661,661,Saturday,10.59386975
+2023-01-28 14:00:00,662,7,4,10.86023166,West,Credit Card,False,Sunny,22.94661973,Excellent,Neutral,29,Phone Order,662,662,Saturday,43.44092666
+2023-01-28 15:00:00,663,3,3,7.871415207,East,Online,True,Cloudy,29.20768918,Average,Neutral,46,Phone Order,663,663,Saturday,23.61424562
+2023-01-28 16:00:00,664,7,4,11.17483191,South,Cash,True,Sunny,21.31576463,Poor,Neutral,25,Online Order,664,664,Saturday,44.69932763
+2023-01-28 17:00:00,665,3,1,19.02491648,North,Cash,False,Sunny,25.87305649,Poor,Positive,38,In Store,665,665,Saturday,19.02491648
+2023-01-28 18:00:00,666,3,3,11.45810314,East,Cash,True,Cloudy,30.69982594,Excellent,Neutral,17,In Store,666,666,Saturday,34.37430943
+2023-01-28 19:00:00,667,0,2,18.16976745,North,Cash,True,Sunny,27.154342182855554,Average,Neutral,44,In Store,667,667,Saturday,36.33953491
+2023-01-28 20:00:00,668,0,3,14.0825715,North,Credit Card,False,Rainy,29.37051004,Excellent,unknown,20,Online Order,668,668,Saturday,42.2477145
+2023-01-28 21:00:00,669,4,3,8.70697332,East,Credit Card,False,Rainy,24.23811295,Excellent,unknown,16,In Store,669,669,Saturday,26.12091996
+2023-01-28 22:00:00,670,2,5,10.33782139,East,Cash,False,Cloudy,25.67037424,Poor,Positive,28,Phone Order,670,670,Saturday,51.68910694
+2023-01-28 23:00:00,671,2,3,6.258793037,South,Credit Card,True,Sunny,21.54419217,Poor,Negative,55,Phone Order,671,671,Saturday,18.77637911
+2023-01-29 00:00:00,672,5,3,10.0019389,South,Credit Card,False,Rainy,30.78534231,Good,Positive,32,In Store,672,672,Sunday,30.00581671
+2023-01-29 01:00:00,673,2,4,15.16311418,West,Credit Card,True,Rainy,27.55833195,Average,Neutral,58,Phone Order,673,673,Sunday,60.65245673
+2023-01-29 02:00:00,674,0,2,6.081666394,North,Cash,False,Rainy,30.63148449,Average,Neutral,45,In Store,674,674,Sunday,12.16333279
+2023-01-29 03:00:00,675,4,4,8.081021127,South,Online,False,Rainy,23.73415287,Poor,Negative,27,In Store,675,675,Sunday,32.32408451
+2023-01-29 04:00:00,676,4,4,10.72161562,West,Online,True,Sunny,24.86657343,Poor,Positive,40,Phone Order,676,676,Sunday,42.88646248
+2023-01-29 05:00:00,677,3,1,19.73074306,South,Online,True,Sunny,25.01323006,Poor,Positive,58,Phone Order,677,677,Sunday,19.73074306
+2023-01-29 06:00:00,678,7,4,16.77292734,East,Cash,False,Sunny,20.38613615,Average,unknown,26,Phone Order,678,678,Sunday,67.09170938
+2023-01-29 07:00:00,679,5,5,16.0023012,South,Credit Card,False,Sunny,25.11571809,Good,Negative,32,Phone Order,679,679,Sunday,80.01150599
+2023-01-29 08:00:00,680,3,5,6.742864348,North,Credit Card,True,Rainy,32.0495686,Average,Neutral,23,In Store,680,680,Sunday,33.71432174
+2023-01-29 09:00:00,681,7,1,16.7149384,South,Cash,False,Cloudy,33.45947744,Poor,Negative,35,Phone Order,681,681,Sunday,16.7149384
+2023-01-29 10:00:00,682,2,2,16.77903217,North,Cash,True,Cloudy,27.77327473,Poor,Neutral,54,Phone Order,682,682,Sunday,33.55806435
+2023-01-29 11:00:00,683,3,2,14.01654043,East,Online,True,Rainy,26.83252543,Good,Negative,57,Online Order,683,683,Sunday,28.03308087
+2023-01-29 12:00:00,684,6,4,19.85542673,North,Online,False,Rainy,20.46236928,Excellent,Neutral,38,Phone Order,684,684,Sunday,79.42170692
+2023-01-29 13:00:00,685,2,4,9.878808589,South,Cash,True,Cloudy,33.18806506,Excellent,Positive,48,Phone Order,685,685,Sunday,39.51523436
+2023-01-29 14:00:00,686,7,4,19.11908672,West,Online,True,Cloudy,27.154342182855554,Average,Positive,22,In Store,686,686,Sunday,76.47634689
+2023-01-29 15:00:00,687,5,2,18.72096672,East,Credit Card,True,Rainy,34.1712512,Excellent,Positive,58,In Store,687,687,Sunday,37.44193345
+2023-01-29 16:00:00,688,7,3,5.172209896,South,Cash,False,Rainy,27.33824373,Excellent,Negative,47,Online Order,688,688,Sunday,15.51662969
+2023-01-29 17:00:00,689,3,5,11.7517479,East,Cash,True,Sunny,25.1290174,Average,Negative,37,Phone Order,689,689,Sunday,58.75873949
+2023-01-29 18:00:00,690,3,3,19.6565635,East,Credit Card,False,Sunny,33.86327652,Poor,Negative,27,Phone Order,690,690,Sunday,58.96969049
+2023-01-29 19:00:00,691,1,3,6.546820436,South,Credit Card,False,Cloudy,20.3658649,Excellent,Positive,28,Phone Order,691,691,Sunday,19.64046131
+2023-01-29 20:00:00,692,5,2,13.21677042,South,Credit Card,False,Rainy,28.72137342,Poor,Neutral,28,Phone Order,692,692,Sunday,26.43354083
+2023-01-29 21:00:00,693,2,3,19.68436261,West,Online,True,Cloudy,28.23398787,Average,Positive,30,Phone Order,693,693,Sunday,59.05308782
+2023-01-29 22:00:00,694,4,1,13.33243136,East,Cash,True,Sunny,23.28980602,Poor,Positive,52,Phone Order,694,694,Sunday,13.33243136
+2023-01-29 23:00:00,695,5,4,7.847229545,East,Online,False,Sunny,26.43331147,Poor,Neutral,53,Online Order,695,695,Sunday,31.38891818
+2023-01-30 00:00:00,696,4,1,13.73274845,South,Credit Card,False,Cloudy,29.78396009,Average,Neutral,40,Phone Order,696,696,Monday,13.73274845
+2023-01-30 01:00:00,697,5,5,8.066608609,North,Online,True,Sunny,30.90696795,Poor,Neutral,40,Phone Order,697,697,Monday,40.33304305
+2023-01-30 02:00:00,698,5,4,12.79556394,South,Credit Card,False,Rainy,20.01075288,Excellent,Neutral,15,Phone Order,698,698,Monday,51.18225577
+2023-01-30 03:00:00,699,7,3,6.110633269,East,Online,False,Cloudy,27.154342182855554,Excellent,Positive,46,Online Order,699,699,Monday,18.33189981
+2023-01-30 04:00:00,700,5,5,14.08224004,South,Online,True,Rainy,22.46788059,Excellent,Negative,29,Phone Order,700,700,Monday,70.41120019
+2023-01-30 05:00:00,701,1,4,12.75184909,West,Credit Card,False,Rainy,23.50370651,Excellent,Positive,35,Online Order,701,701,Monday,51.00739635
+2023-01-30 06:00:00,702,3,3,16.10242053,North,Online,True,Sunny,23.95210169,Poor,Neutral,32,In Store,702,702,Monday,48.30726159
+2023-01-30 07:00:00,703,8,1,14.46050707,South,Cash,True,Rainy,20.56730205,Excellent,Negative,44,Phone Order,703,703,Monday,14.46050707
+2023-01-30 08:00:00,704,4,4,13.24409403,West,Online,False,Cloudy,21.84578185,Poor,Negative,27,Online Order,704,704,Monday,52.97637611
+2023-01-30 09:00:00,705,3,3,15.34668274,East,Online,True,Rainy,34.79524884,Good,Positive,38,In Store,705,705,Monday,46.04004822
+2023-01-30 10:00:00,706,8,1,7.159128704,South,Cash,True,Rainy,24.72825106,Poor,Positive,44,Online Order,706,706,Monday,7.159128704
+2023-01-30 11:00:00,707,4,5,13.93039492,East,Credit Card,True,Rainy,21.72951636,Excellent,Positive,16,Online Order,707,707,Monday,69.65197459
+2023-01-30 12:00:00,708,4,5,7.581659042,West,Cash,False,Rainy,21.60486892,Good,Negative,33,In Store,708,708,Monday,37.90829521
+2023-01-30 13:00:00,709,8,5,18.88283312,East,Online,False,Rainy,30.79189952,Average,Negative,58,Phone Order,709,709,Monday,94.41416559
+2023-01-30 14:00:00,710,5,5,6.025011573,West,Credit Card,False,Sunny,32.81852996,Poor,Negative,39,Phone Order,710,710,Monday,30.12505786
+2023-01-30 15:00:00,711,2,2,11.45562125,West,Online,True,Cloudy,23.85428449,Excellent,Neutral,28,Online Order,711,711,Monday,22.91124249
+2023-01-30 16:00:00,712,6,4,15.43696216,West,Online,True,Sunny,20.31364269,Excellent,Neutral,20,In Store,712,712,Monday,61.74784866
+2023-01-30 17:00:00,713,3,4,11.87033318,South,Cash,False,Cloudy,23.34635028,Excellent,Positive,26,Phone Order,713,713,Monday,47.4813327
+2023-01-30 18:00:00,714,7,2,6.381428798,East,Cash,False,Cloudy,27.154342182855554,Average,Negative,34,Online Order,714,714,Monday,12.7628576
+2023-01-30 19:00:00,715,3,3,13.30068524,East,Credit Card,True,Cloudy,21.55092405,Good,Positive,37,In Store,715,715,Monday,39.90205573
+2023-01-30 20:00:00,716,7,3,14.62447863,North,Credit Card,False,Cloudy,27.154342182855554,Good,Negative,44,Online Order,716,716,Monday,43.8734359
+2023-01-30 21:00:00,717,8,5,15.55688466,North,Credit Card,False,Cloudy,23.44877556,Excellent,Positive,44,In Store,717,717,Monday,77.78442332
+2023-01-30 22:00:00,718,7,1,10.59889722,North,Online,False,Rainy,27.73918818,Poor,Neutral,52,Phone Order,718,718,Monday,10.59889722
+2023-01-30 23:00:00,719,4,3,13.45489957,North,Cash,False,Sunny,27.154342182855554,Excellent,unknown,44,Phone Order,719,719,Monday,40.3646987
+2023-01-31 00:00:00,720,2,1,11.76029712,East,Cash,False,Sunny,34.10805952,Excellent,Neutral,55,Online Order,720,720,Tuesday,11.76029712
+2023-01-31 01:00:00,721,2,4,15.08084058,West,Cash,True,Rainy,33.58915952,Poor,Negative,44,Phone Order,721,721,Tuesday,60.32336233
+2023-01-31 02:00:00,722,4,1,13.75335451,West,Credit Card,False,Cloudy,28.50209158,Excellent,unknown,50,Phone Order,722,722,Tuesday,13.75335451
+2023-01-31 03:00:00,723,1,4,12.88634329,South,Cash,False,Sunny,25.31635988,Average,Negative,48,In Store,723,723,Tuesday,51.54537317
+2023-01-31 04:00:00,724,8,2,8.742865503,West,Cash,True,Rainy,25.71720323,Excellent,Neutral,30,Phone Order,724,724,Tuesday,17.48573101
+2023-01-31 05:00:00,725,1,2,5.030277766,East,Cash,True,Rainy,26.17778425,Average,unknown,38,In Store,725,725,Tuesday,10.06055553
+2023-01-31 06:00:00,726,1,5,7.61122513,East,Credit Card,True,Sunny,30.91368983,Excellent,Positive,28,In Store,726,726,Tuesday,38.05612565
+2023-01-31 07:00:00,727,3,3,6.755990621,East,Cash,True,Sunny,26.77458493,Good,Negative,40,Online Order,727,727,Tuesday,20.26797186
+2023-01-31 08:00:00,728,3,5,11.73627118,South,Credit Card,False,Cloudy,32.8509492,Poor,Neutral,22,In Store,728,728,Tuesday,58.68135588
+2023-01-31 09:00:00,729,6,4,14.18387226,North,Cash,False,Cloudy,34.16142179,Good,Positive,28,Phone Order,729,729,Tuesday,56.73548905
+2023-01-31 10:00:00,730,7,5,8.19627513,West,Cash,False,Sunny,25.0391923,Excellent,Neutral,45,In Store,730,730,Tuesday,40.98137565
+2023-01-31 11:00:00,731,4,1,19.08585644,East,Cash,False,Cloudy,28.41041722,Excellent,Negative,16,In Store,731,731,Tuesday,19.08585644
+2023-01-31 12:00:00,732,3,4,5.100231938,East,Credit Card,True,Rainy,21.42584805,Average,Neutral,18,Online Order,732,732,Tuesday,20.40092775
+2023-01-31 13:00:00,733,8,2,16.58451523,North,Credit Card,True,Cloudy,23.00703572,Excellent,Negative,15,Phone Order,733,733,Tuesday,33.16903045
+2023-01-31 14:00:00,734,7,3,14.37807154,East,Cash,False,Cloudy,26.2019865,Excellent,Positive,34,Phone Order,734,734,Tuesday,43.13421463
+2023-01-31 15:00:00,735,6,4,10.60332202,West,Online,False,Rainy,23.09304074,Excellent,Neutral,28,Phone Order,735,735,Tuesday,42.41328806
+2023-01-31 16:00:00,736,6,4,5.757334166,South,Credit Card,False,Cloudy,33.14840736,Good,Neutral,54,In Store,736,736,Tuesday,23.02933666
+2023-01-31 17:00:00,737,8,1,14.41229858,East,Credit Card,False,Rainy,22.37429384,Average,Negative,39,Phone Order,737,737,Tuesday,14.41229858
+2023-01-31 18:00:00,738,1,3,10.78420269,West,Cash,True,Cloudy,26.83491232,Good,Neutral,39,Phone Order,738,738,Tuesday,32.35260808
+2023-01-31 19:00:00,739,2,2,19.04400709,East,Online,False,Sunny,29.08548861,Average,Neutral,17,In Store,739,739,Tuesday,38.08801418
+2023-01-31 20:00:00,740,8,4,13.12985112,North,Cash,True,Cloudy,30.37795862,Good,Positive,19,Online Order,740,740,Tuesday,52.51940449
+2023-01-31 21:00:00,741,0,4,19.09477267,East,Credit Card,True,Sunny,25.74604055,Excellent,Negative,52,Online Order,741,741,Tuesday,76.37909068
+2023-01-31 22:00:00,742,8,1,8.307255402,East,Credit Card,True,Sunny,33.03648603,Good,Negative,40,In Store,742,742,Tuesday,8.307255402
+2023-01-31 23:00:00,743,6,5,15.88588866,South,Cash,True,Sunny,28.52478727,Good,Positive,54,Online Order,743,743,Tuesday,79.42944328
+2023-02-01 00:00:00,744,4,2,14.25873531,North,Cash,False,Sunny,26.59261671,Average,Positive,52,Online Order,744,744,Wednesday,28.51747063
+2023-02-01 01:00:00,745,3,3,16.09112345,North,Online,False,Sunny,21.00860951,Average,Negative,52,Online Order,745,745,Wednesday,48.27337034
+2023-02-01 02:00:00,746,4,4,8.22001796,South,Online,False,Rainy,26.97034203,Good,Positive,18,Phone Order,746,746,Wednesday,32.88007184
+2023-02-01 03:00:00,747,6,4,14.97491774,East,Credit Card,False,Rainy,32.31103761,Average,Positive,21,Online Order,747,747,Wednesday,59.89967097
+2023-02-01 04:00:00,748,3,2,12.4706059,West,Online,True,Rainy,29.21811527,Average,Positive,44,Phone Order,748,748,Wednesday,24.94121179
+2023-02-01 05:00:00,749,0,5,16.14237462,North,Online,True,Sunny,32.48243681,Average,Negative,44,Online Order,749,749,Wednesday,80.71187312
+2023-02-01 06:00:00,750,2,4,9.905669662,North,Credit Card,True,Cloudy,27.41017506,Poor,Positive,33,Phone Order,750,750,Wednesday,39.62267865
+2023-02-01 07:00:00,751,7,2,18.35085538,East,Credit Card,False,Rainy,21.77692558,Average,Neutral,53,In Store,751,751,Wednesday,36.70171076
+2023-02-01 08:00:00,752,6,1,6.264519719,East,Credit Card,True,Cloudy,27.154342182855554,Poor,Neutral,49,In Store,752,752,Wednesday,6.264519719
+2023-02-01 09:00:00,753,6,5,17.10783978,North,Credit Card,True,Cloudy,24.5482932,Poor,Negative,54,Online Order,753,753,Wednesday,85.53919891
+2023-02-01 10:00:00,754,6,3,17.91979439,East,Cash,True,Sunny,30.46985707,Average,Positive,47,Phone Order,754,754,Wednesday,53.75938316
+2023-02-01 11:00:00,755,3,4,17.25878467,West,Credit Card,True,Sunny,31.85389856,Good,Neutral,47,In Store,755,755,Wednesday,69.03513868
+2023-02-01 12:00:00,756,5,2,12.69089591,North,Credit Card,False,Sunny,24.43629252,Average,Negative,28,In Store,756,756,Wednesday,25.38179183
+2023-02-01 13:00:00,757,8,1,11.5757747,West,Credit Card,True,Rainy,27.43480881,Excellent,Neutral,52,In Store,757,757,Wednesday,11.5757747
+2023-02-01 14:00:00,758,5,3,19.9439343,West,Online,True,Sunny,26.31678357,Good,Positive,24,In Store,758,758,Wednesday,59.83180289
+2023-02-01 15:00:00,759,0,2,8.437579268,East,Credit Card,False,Rainy,26.15784177,Poor,Negative,42,Online Order,759,759,Wednesday,16.87515854
+2023-02-01 16:00:00,760,2,2,13.20313949,West,Cash,False,Rainy,23.4702307,Poor,Neutral,28,Phone Order,760,760,Wednesday,26.40627898
+2023-02-01 17:00:00,761,1,3,15.06013288,East,Cash,False,Rainy,27.154342182855554,Good,Negative,50,In Store,761,761,Wednesday,45.18039864
+2023-02-01 18:00:00,762,0,1,15.51301454,South,Credit Card,True,Rainy,22.95032837,Good,Neutral,52,Online Order,762,762,Wednesday,15.51301454
+2023-02-01 19:00:00,763,1,1,8.060369986,East,Cash,True,Sunny,20.82998581,Average,Neutral,30,In Store,763,763,Wednesday,8.060369986
+2023-02-01 20:00:00,764,1,5,14.80991139,West,Online,True,Rainy,27.154342182855554,Poor,Positive,35,In Store,764,764,Wednesday,74.04955693
+2023-02-01 21:00:00,765,2,4,17.2755435,South,Credit Card,True,Sunny,20.13801346,Excellent,Positive,42,In Store,765,765,Wednesday,69.10217399
+2023-02-01 22:00:00,766,4,3,5.750278652,East,Cash,False,Sunny,29.40887601,Average,Neutral,47,In Store,766,766,Wednesday,17.25083596
+2023-02-01 23:00:00,767,5,3,18.6728194,West,Cash,True,Rainy,24.74563111,Good,unknown,20,Online Order,767,767,Wednesday,56.0184582
+2023-02-02 00:00:00,768,6,3,5.442560827,North,Credit Card,True,Sunny,34.59717067,Poor,Negative,55,Phone Order,768,768,Thursday,16.32768248
+2023-02-02 01:00:00,769,7,1,10.33956549,North,Cash,False,Cloudy,22.90575576,Good,Positive,29,Online Order,769,769,Thursday,10.33956549
+2023-02-02 02:00:00,770,1,4,5.237197943,East,Credit Card,False,Sunny,25.18742855,Good,Neutral,58,Online Order,770,770,Thursday,20.94879177
+2023-02-02 03:00:00,771,0,5,6.157177528,East,Cash,False,Sunny,25.36761738,Good,Positive,17,Online Order,771,771,Thursday,30.78588764
+2023-02-02 04:00:00,772,4,2,18.66752428,North,Online,True,Rainy,20.12677244,Average,Neutral,57,In Store,772,772,Thursday,37.33504856
+2023-02-02 05:00:00,773,1,2,10.32291246,West,Cash,True,Rainy,32.5881193,Excellent,Neutral,49,Phone Order,773,773,Thursday,20.64582492
+2023-02-02 06:00:00,774,4,3,11.37157296,West,Cash,True,Sunny,20.4799169,Excellent,Positive,28,In Store,774,774,Thursday,34.11471887
+2023-02-02 07:00:00,775,4,4,8.230165721,West,Credit Card,True,Rainy,34.10269752,Poor,Negative,16,Online Order,775,775,Thursday,32.92066288
+2023-02-02 08:00:00,776,1,1,13.95643655,East,Cash,True,Cloudy,33.38111527,Good,Positive,43,In Store,776,776,Thursday,13.95643655
+2023-02-02 09:00:00,777,3,4,13.92204822,South,Credit Card,False,Cloudy,28.03282874,Excellent,Neutral,18,Phone Order,777,777,Thursday,55.68819288
+2023-02-02 10:00:00,778,8,4,10.58300588,South,Online,False,Rainy,28.15393362,Good,Positive,40,Phone Order,778,778,Thursday,42.33202351
+2023-02-02 11:00:00,779,6,1,9.995523077,South,Credit Card,True,Sunny,29.80666884,Poor,Negative,26,In Store,779,779,Thursday,9.995523077
+2023-02-02 12:00:00,780,6,3,18.27446462,South,Credit Card,True,Cloudy,25.80575018,Good,Negative,16,Online Order,780,780,Thursday,54.82339387
+2023-02-02 13:00:00,781,3,4,10.74926359,South,Cash,True,Cloudy,29.70833425,Excellent,Neutral,31,In Store,781,781,Thursday,42.99705438
+2023-02-02 14:00:00,782,6,2,12.40251488,East,Online,True,Sunny,20.67152583,Good,Positive,49,Online Order,782,782,Thursday,24.80502976
+2023-02-02 15:00:00,783,4,1,9.249571436,East,Credit Card,True,Rainy,20.81071441,Excellent,Negative,24,Phone Order,783,783,Thursday,9.249571436
+2023-02-02 16:00:00,784,2,5,16.80154255,South,Cash,False,Cloudy,26.85845629,Poor,Positive,36,In Store,784,784,Thursday,84.00771275
+2023-02-02 17:00:00,785,0,3,10.96172235,East,Cash,False,Sunny,28.24433452,Good,Negative,55,Phone Order,785,785,Thursday,32.88516706
+2023-02-02 18:00:00,786,5,1,12.7041657,East,Credit Card,False,Sunny,33.31726461,Excellent,Neutral,57,Online Order,786,786,Thursday,12.7041657
+2023-02-02 19:00:00,787,6,5,8.800357551,South,Cash,True,Cloudy,21.56990951,Poor,Neutral,35,Online Order,787,787,Thursday,44.00178775
+2023-02-02 20:00:00,788,2,5,19.81489389,West,Credit Card,True,Rainy,32.33971891,Good,Positive,29,In Store,788,788,Thursday,99.07446943
+2023-02-02 21:00:00,789,1,4,9.372436114,East,Credit Card,False,Cloudy,23.15071006,Poor,Neutral,49,In Store,789,789,Thursday,37.48974446
+2023-02-02 22:00:00,790,8,4,16.56113796,West,Credit Card,False,Sunny,27.154342182855554,Excellent,Negative,35,In Store,790,790,Thursday,66.24455185
+2023-02-02 23:00:00,791,4,4,11.41243476,East,Online,True,Cloudy,24.74903652,Good,Neutral,35,Phone Order,791,791,Thursday,45.64973902
+2023-02-03 00:00:00,792,8,1,8.093261076,East,Credit Card,False,Rainy,26.00232909,Good,Negative,35,Online Order,792,792,Friday,8.093261076
+2023-02-03 01:00:00,793,0,1,16.99578146,South,Cash,False,Sunny,22.25743247,Good,Negative,58,Online Order,793,793,Friday,16.99578146
+2023-02-03 02:00:00,794,0,3,10.00410184,East,Online,True,Rainy,27.55355112,Poor,Neutral,46,Phone Order,794,794,Friday,30.01230551
+2023-02-03 03:00:00,795,3,4,17.97790021,North,Cash,False,Cloudy,32.02463885,Poor,unknown,19,In Store,795,795,Friday,71.91160084
+2023-02-03 04:00:00,796,7,5,18.72885777,North,Online,False,Cloudy,26.62301016,Excellent,Negative,53,In Store,796,796,Friday,93.64428887
+2023-02-03 05:00:00,797,3,2,17.89735753,South,Online,False,Rainy,27.35920364,Average,Positive,23,Phone Order,797,797,Friday,35.79471506
+2023-02-03 06:00:00,798,2,3,5.525118722,West,Online,True,Cloudy,32.73151378,Good,Positive,32,Online Order,798,798,Friday,16.57535617
+2023-02-03 07:00:00,799,8,1,16.81060018,West,Online,False,Rainy,30.59087172,Good,Positive,35,Online Order,799,799,Friday,16.81060018
+2023-02-03 08:00:00,800,7,3,11.170092,West,Cash,False,Cloudy,27.35681613,Excellent,Neutral,22,Online Order,800,800,Friday,33.51027599
+2023-02-03 09:00:00,801,1,3,18.1058438,North,Credit Card,False,Rainy,23.86543472,Good,Positive,58,Online Order,801,801,Friday,54.31753141
+2023-02-03 10:00:00,802,4,3,14.56931394,West,Cash,True,Rainy,33.2739012,Poor,Negative,48,Phone Order,802,802,Friday,43.70794182
+2023-02-03 11:00:00,803,8,3,17.50464701,West,Credit Card,True,Sunny,28.65530603,Poor,Neutral,24,Online Order,803,803,Friday,52.51394104
+2023-02-03 12:00:00,804,3,2,12.49147655,South,Cash,False,Sunny,23.31721415,Good,Neutral,55,Phone Order,804,804,Friday,24.9829531
+2023-02-03 13:00:00,805,5,4,13.02538257,West,Online,True,Rainy,24.03679629,Good,Neutral,38,In Store,805,805,Friday,52.10153028
+2023-02-03 14:00:00,806,7,5,7.165814482,North,Online,False,Cloudy,32.04699633,Poor,Neutral,54,Phone Order,806,806,Friday,35.82907241
+2023-02-03 15:00:00,807,7,3,16.75981038,North,Credit Card,True,Cloudy,20.66218343,Good,Negative,38,Online Order,807,807,Friday,50.27943114
+2023-02-03 16:00:00,808,4,3,11.29084418,North,Credit Card,True,Cloudy,34.88138281,Poor,Negative,46,In Store,808,808,Friday,33.87253253
+2023-02-03 17:00:00,809,6,3,12.50120177,South,Cash,False,Rainy,21.9552752,Average,Positive,47,Phone Order,809,809,Friday,37.50360532
+2023-02-03 18:00:00,810,0,4,16.77646571,South,Credit Card,False,Rainy,31.94102788,Average,Neutral,52,Phone Order,810,810,Friday,67.10586285
+2023-02-03 19:00:00,811,0,1,13.982681,East,Cash,False,Rainy,27.154342182855554,Good,Positive,58,Phone Order,811,811,Friday,13.982681
+2023-02-03 20:00:00,812,5,1,8.016480912,West,Credit Card,True,Rainy,27.38324275,Good,unknown,48,In Store,812,812,Friday,8.016480912
+2023-02-03 21:00:00,813,2,2,13.85348989,South,Credit Card,False,Sunny,33.20975866,Good,Neutral,25,Phone Order,813,813,Friday,27.70697977
+2023-02-03 22:00:00,814,2,1,11.11449287,North,Credit Card,True,Rainy,26.19366784,Poor,Negative,45,Online Order,814,814,Friday,11.11449287
+2023-02-03 23:00:00,815,1,3,12.04288313,North,Online,True,Cloudy,28.06240631,Average,unknown,32,In Store,815,815,Friday,36.12864939
+2023-02-04 00:00:00,816,8,3,5.424669116,South,Online,False,Sunny,20.73949494,Average,Negative,37,In Store,816,816,Saturday,16.27400735
+2023-02-04 01:00:00,817,6,3,8.150440243,South,Cash,True,Cloudy,20.03521211,Excellent,Neutral,36,Phone Order,817,817,Saturday,24.45132073
+2023-02-04 02:00:00,818,3,2,9.215571221,South,Credit Card,False,Rainy,23.6719981,Excellent,Neutral,57,Online Order,818,818,Saturday,18.43114244
+2023-02-04 03:00:00,819,7,3,15.69440012,East,Cash,True,Sunny,30.20874639,Good,Positive,32,In Store,819,819,Saturday,47.08320035
+2023-02-04 04:00:00,820,5,1,5.172387099,North,Credit Card,False,Rainy,21.8189734,Poor,Neutral,54,Phone Order,820,820,Saturday,5.172387099
+2023-02-04 05:00:00,821,0,4,11.13165892,East,Online,True,Sunny,21.70642938,Good,Negative,55,Online Order,821,821,Saturday,44.52663567
+2023-02-04 06:00:00,822,1,4,18.86040306,East,Online,True,Cloudy,26.16440912,Average,Negative,53,Phone Order,822,822,Saturday,75.44161223
+2023-02-04 07:00:00,823,2,5,6.678209248,West,Credit Card,False,Rainy,29.71755558,Good,Negative,34,Phone Order,823,823,Saturday,33.39104624
+2023-02-04 08:00:00,824,5,1,12.74636582,North,Credit Card,True,Rainy,30.68107988,Good,Negative,27,In Store,824,824,Saturday,12.74636582
+2023-02-04 09:00:00,825,7,3,16.79783574,North,Online,False,Sunny,22.67676011,Average,Positive,59,In Store,825,825,Saturday,50.39350721
+2023-02-04 10:00:00,826,3,4,19.13796961,South,Online,True,Sunny,21.19382221,Average,Negative,15,Phone Order,826,826,Saturday,76.55187845
+2023-02-04 11:00:00,827,1,1,16.20164959,South,Cash,True,Rainy,34.10595551,Average,Positive,18,In Store,827,827,Saturday,16.20164959
+2023-02-04 12:00:00,828,7,4,15.80848323,West,Online,True,Sunny,23.90999574,Average,Negative,38,In Store,828,828,Saturday,63.23393292
+2023-02-04 13:00:00,829,0,3,17.39732135,East,Credit Card,False,Rainy,32.80019746,Excellent,Positive,50,Online Order,829,829,Saturday,52.19196406
+2023-02-04 14:00:00,830,0,4,11.69301831,South,Cash,False,Sunny,32.95237176,Poor,Negative,50,Online Order,830,830,Saturday,46.77207326
+2023-02-04 15:00:00,831,0,5,17.08766799,South,Credit Card,False,Cloudy,31.58783888,Poor,Negative,59,Phone Order,831,831,Saturday,85.43833995
+2023-02-04 16:00:00,832,5,5,5.119466071,North,Cash,False,Sunny,22.5325041,Average,Positive,16,Phone Order,832,832,Saturday,25.59733036
+2023-02-04 17:00:00,833,5,4,18.86841583,North,Credit Card,False,Cloudy,32.32702189,Poor,Neutral,42,Phone Order,833,833,Saturday,75.47366332
+2023-02-04 18:00:00,834,2,1,11.64959764,South,Online,True,Sunny,31.53875839,Poor,Neutral,40,Phone Order,834,834,Saturday,11.64959764
+2023-02-04 19:00:00,835,2,1,13.30070282,North,Credit Card,True,Sunny,28.95084485,Poor,Neutral,37,Online Order,835,835,Saturday,13.30070282
+2023-02-04 20:00:00,836,3,1,8.823233734,West,Cash,False,Rainy,25.05803053,Poor,Positive,29,In Store,836,836,Saturday,8.823233734
+2023-02-04 21:00:00,837,1,4,16.13796249,South,Credit Card,True,Sunny,23.93762906,Average,Neutral,50,Online Order,837,837,Saturday,64.55184997
+2023-02-04 22:00:00,838,4,1,6.149537097,North,Cash,True,Sunny,21.82833818,Good,Neutral,41,Phone Order,838,838,Saturday,6.149537097
+2023-02-04 23:00:00,839,4,3,18.08953704,West,Credit Card,True,Cloudy,27.646356,Good,Positive,20,Phone Order,839,839,Saturday,54.26861111
+2023-02-05 00:00:00,840,7,5,17.42175244,North,Online,True,Sunny,28.77891313,Good,Neutral,49,Online Order,840,840,Sunday,87.10876218
+2023-02-05 01:00:00,841,0,3,8.240901744,North,Online,False,Rainy,25.39008486,Excellent,Neutral,53,Online Order,841,841,Sunday,24.72270523
+2023-02-05 02:00:00,842,1,1,17.13986597,North,Credit Card,True,Cloudy,27.13038602,Poor,Neutral,52,Phone Order,842,842,Sunday,17.13986597
+2023-02-05 03:00:00,843,5,3,16.795366,South,Credit Card,False,Rainy,25.45271686,Average,Positive,49,In Store,843,843,Sunday,50.38609799
+2023-02-05 04:00:00,844,8,1,14.48324897,East,Credit Card,False,Rainy,29.61509086,Average,Positive,50,Phone Order,844,844,Sunday,14.48324897
+2023-02-05 05:00:00,845,6,4,10.60280265,North,Cash,True,Rainy,33.51888812,Excellent,Neutral,24,Online Order,845,845,Sunday,42.41121061
+2023-02-05 06:00:00,846,3,3,9.072481313,West,Credit Card,False,Rainy,22.45880393,Average,Neutral,44,Phone Order,846,846,Sunday,27.21744394
+2023-02-05 07:00:00,847,0,4,8.476753854,South,Credit Card,True,Cloudy,25.72113215,Good,Positive,55,Phone Order,847,847,Sunday,33.90701542
+2023-02-05 08:00:00,848,0,4,9.779134441,South,Cash,True,Sunny,22.11302906,Excellent,Neutral,52,In Store,848,848,Sunday,39.11653777
+2023-02-05 09:00:00,849,0,2,18.55337665,West,Online,True,Rainy,27.154342182855554,Average,Positive,43,Phone Order,849,849,Sunday,37.1067533
+2023-02-05 10:00:00,850,5,1,6.16461164,North,Credit Card,False,Cloudy,27.154342182855554,Excellent,Neutral,57,Phone Order,850,850,Sunday,6.16461164
+2023-02-05 11:00:00,851,5,5,17.43306914,East,Credit Card,False,Rainy,33.97869099,Excellent,Positive,53,Phone Order,851,851,Sunday,87.16534572
+2023-02-05 12:00:00,852,6,1,10.23335113,North,Online,False,Sunny,24.18307889,Average,Negative,18,Online Order,852,852,Sunday,10.23335113
+2023-02-05 13:00:00,853,1,5,12.82399094,West,Online,True,Cloudy,34.25316809,Good,Negative,19,Online Order,853,853,Sunday,64.1199547
+2023-02-05 14:00:00,854,0,1,16.9172845,South,Cash,True,Cloudy,20.94894008,Average,Positive,18,In Store,854,854,Sunday,16.9172845
+2023-02-05 15:00:00,855,4,4,18.26564821,East,Credit Card,True,Sunny,29.04520795,Poor,Negative,50,Phone Order,855,855,Sunday,73.06259282
+2023-02-05 16:00:00,856,2,3,10.1717213,South,Credit Card,False,Cloudy,20.85699079,Poor,Neutral,59,Online Order,856,856,Sunday,30.5151639
+2023-02-05 17:00:00,857,4,3,11.92765222,West,Cash,True,Sunny,27.154342182855554,Average,Positive,30,In Store,857,857,Sunday,35.78295666
+2023-02-05 18:00:00,858,7,2,11.21774097,North,Online,True,Cloudy,27.94713586,Good,unknown,39,Phone Order,858,858,Sunday,22.43548194
+2023-02-05 19:00:00,859,4,5,5.198765503,East,Cash,False,Cloudy,30.04022526,Poor,Neutral,28,In Store,859,859,Sunday,25.99382751
+2023-02-05 20:00:00,860,7,5,9.439143333,South,Online,False,Sunny,32.47360889,Poor,Neutral,25,In Store,860,860,Sunday,47.19571666
+2023-02-05 21:00:00,861,8,5,11.88783851,South,Cash,False,Sunny,22.25465934,Average,Positive,43,In Store,861,861,Sunday,59.43919253
+2023-02-05 22:00:00,862,2,4,11.16640413,South,Online,True,Cloudy,20.57887343,Average,Neutral,48,In Store,862,862,Sunday,44.66561653
+2023-02-05 23:00:00,863,4,5,15.82893841,North,Cash,True,Cloudy,33.18321719,Average,Positive,36,In Store,863,863,Sunday,79.14469206
+2023-02-06 00:00:00,864,8,3,10.77205426,East,Online,True,Sunny,24.72399841,Excellent,Neutral,28,In Store,864,864,Monday,32.31616277
+2023-02-06 01:00:00,865,3,4,12.34064673,North,Online,False,Sunny,21.93468362,Excellent,Positive,38,In Store,865,865,Monday,49.36258694
+2023-02-06 02:00:00,866,1,1,11.44412888,North,Online,False,Cloudy,27.02691856,Excellent,Neutral,53,Phone Order,866,866,Monday,11.44412888
+2023-02-06 03:00:00,867,8,5,16.10939223,North,Online,False,Cloudy,28.97459114,Average,Neutral,40,Phone Order,867,867,Monday,80.54696117
+2023-02-06 04:00:00,868,1,5,17.94458598,West,Online,False,Cloudy,20.46455905,Good,Negative,57,In Store,868,868,Monday,89.72292992
+2023-02-06 05:00:00,869,4,1,12.97833619,West,Credit Card,True,Sunny,24.12343487,Poor,unknown,50,Phone Order,869,869,Monday,12.97833619
+2023-02-06 06:00:00,870,8,5,16.84148291,West,Online,True,Cloudy,20.49199811,Excellent,Negative,53,In Store,870,870,Monday,84.20741456
+2023-02-06 07:00:00,871,2,1,9.45180023,East,Credit Card,True,Rainy,26.30503084,Good,unknown,30,Phone Order,871,871,Monday,9.45180023
+2023-02-06 08:00:00,872,4,4,13.12054415,North,Online,True,Sunny,33.42650044,Average,Positive,52,Online Order,872,872,Monday,52.48217661
+2023-02-06 09:00:00,873,0,3,10.17844931,North,Credit Card,True,Cloudy,34.73978617,Excellent,Neutral,46,In Store,873,873,Monday,30.53534792
+2023-02-06 10:00:00,874,5,1,11.21301388,West,Credit Card,True,Sunny,29.5557133,Average,Negative,20,Online Order,874,874,Monday,11.21301388
+2023-02-06 11:00:00,875,8,2,15.98620797,North,Cash,True,Rainy,22.42456541,Good,Neutral,48,In Store,875,875,Monday,31.97241594
+2023-02-06 12:00:00,876,2,1,18.22493723,North,Online,True,Sunny,27.154342182855554,Excellent,Negative,22,In Store,876,876,Monday,18.22493723
+2023-02-06 13:00:00,877,3,5,6.822430866,South,Cash,False,Cloudy,27.74371735,Excellent,Negative,44,Online Order,877,877,Monday,34.11215433
+2023-02-06 14:00:00,878,0,4,14.51958885,North,Cash,False,Rainy,27.154342182855554,Excellent,Positive,41,Online Order,878,878,Monday,58.07835539
+2023-02-06 15:00:00,879,3,4,13.73215711,South,Online,True,Rainy,33.82590004,Excellent,Positive,21,Online Order,879,879,Monday,54.92862845
+2023-02-06 16:00:00,880,4,1,6.776225588,North,Cash,False,Cloudy,27.154342182855554,Good,Negative,41,In Store,880,880,Monday,6.776225588
+2023-02-06 17:00:00,881,5,3,8.178414957,East,Online,True,Cloudy,30.97557909,Excellent,Negative,39,Online Order,881,881,Monday,24.53524487
+2023-02-06 18:00:00,882,8,2,9.665037421,West,Cash,True,Cloudy,30.63771056,Poor,Neutral,55,Online Order,882,882,Monday,19.33007484
+2023-02-06 19:00:00,883,8,4,7.503966062,South,Online,False,Sunny,23.00509732,Poor,unknown,29,Phone Order,883,883,Monday,30.01586425
+2023-02-06 20:00:00,884,4,5,8.655942238,West,Online,True,Sunny,23.16510038,Average,Neutral,39,Phone Order,884,884,Monday,43.27971119
+2023-02-06 21:00:00,885,4,5,9.014011983,South,Online,True,Sunny,30.32439498,Excellent,unknown,36,Online Order,885,885,Monday,45.07005991
+2023-02-06 22:00:00,886,5,3,10.0351075,South,Credit Card,True,Cloudy,23.29584125,Poor,unknown,32,Online Order,886,886,Monday,30.10532249
+2023-02-06 23:00:00,887,2,4,16.24085679,South,Cash,True,Cloudy,26.58007545,Poor,unknown,26,Online Order,887,887,Monday,64.96342717
+2023-02-07 00:00:00,888,2,1,13.57868306,East,Credit Card,True,Sunny,31.73002738,Poor,Negative,37,Online Order,888,888,Tuesday,13.57868306
+2023-02-07 01:00:00,889,5,5,19.79370008,North,Cash,True,Rainy,27.154342182855554,Good,unknown,59,Phone Order,889,889,Tuesday,98.9685004
+2023-02-07 02:00:00,890,2,3,11.2210374,South,Cash,True,Sunny,26.79892659,Excellent,Neutral,53,In Store,890,890,Tuesday,33.66311221
+2023-02-07 03:00:00,891,7,4,16.30797611,East,Cash,False,Rainy,31.88284907,Good,Neutral,39,Online Order,891,891,Tuesday,65.23190443
+2023-02-07 04:00:00,892,1,4,18.07202632,South,Credit Card,False,Cloudy,32.57932694,Good,Negative,24,Online Order,892,892,Tuesday,72.28810528
+2023-02-07 05:00:00,893,5,4,15.1846774,North,Cash,True,Cloudy,29.82163627,Poor,Negative,44,Phone Order,893,893,Tuesday,60.73870958
+2023-02-07 06:00:00,894,5,4,11.17797111,South,Credit Card,False,Sunny,23.42638778,Poor,Positive,24,Online Order,894,894,Tuesday,44.71188443
+2023-02-07 07:00:00,895,6,4,16.30391946,East,Online,True,Sunny,24.11017671,Average,Positive,48,Online Order,895,895,Tuesday,65.21567784
+2023-02-07 08:00:00,896,0,5,8.055007067,North,Cash,True,Cloudy,27.154342182855554,Excellent,Negative,27,Phone Order,896,896,Tuesday,40.27503533
+2023-02-07 09:00:00,897,0,3,9.913282478,East,Cash,True,Sunny,21.75206162,Excellent,Positive,43,Online Order,897,897,Tuesday,29.73984743
+2023-02-07 10:00:00,898,7,4,13.20027883,North,Online,True,Cloudy,24.09739431,Poor,Neutral,52,Online Order,898,898,Tuesday,52.80111531
+2023-02-07 11:00:00,899,4,2,13.63114081,North,Online,False,Cloudy,23.14278836,Poor,Neutral,55,Phone Order,899,899,Tuesday,27.26228162
+2023-02-07 12:00:00,900,4,2,5.332122132,West,Cash,False,Rainy,26.82993125,Excellent,Negative,59,In Store,900,900,Tuesday,10.66424426
+2023-02-07 13:00:00,901,3,3,19.17671283,West,Online,False,Sunny,33.62656322,Average,Neutral,23,Online Order,901,901,Tuesday,57.53013849
+2023-02-07 14:00:00,902,7,1,15.44940907,West,Credit Card,False,Cloudy,21.56720475,Poor,Negative,27,Online Order,902,902,Tuesday,15.44940907
+2023-02-07 15:00:00,903,5,1,12.43555625,North,Credit Card,True,Sunny,30.80401886,Average,Neutral,51,In Store,903,903,Tuesday,12.43555625
+2023-02-07 16:00:00,904,7,1,18.99690852,South,Cash,False,Rainy,30.30924507,Good,unknown,28,Phone Order,904,904,Tuesday,18.99690852
+2023-02-07 17:00:00,905,7,2,11.58643348,East,Credit Card,True,Rainy,21.43631298,Poor,Neutral,51,In Store,905,905,Tuesday,23.17286696
+2023-02-07 18:00:00,906,7,1,19.70653355,East,Credit Card,True,Sunny,33.83858607,Good,Neutral,23,Online Order,906,906,Tuesday,19.70653355
+2023-02-07 19:00:00,907,0,5,12.68427136,East,Cash,False,Sunny,28.52708303,Poor,Positive,22,In Store,907,907,Tuesday,63.42135679
+2023-02-07 20:00:00,908,7,4,6.71428655,West,Online,True,Cloudy,25.45588282,Good,Positive,53,Phone Order,908,908,Tuesday,26.8571462
+2023-02-07 21:00:00,909,1,2,16.47201459,North,Cash,False,Rainy,27.154342182855554,Poor,Positive,54,Online Order,909,909,Tuesday,32.94402917
+2023-02-07 22:00:00,910,4,3,15.18346588,West,Credit Card,False,Rainy,23.86048188,Average,Positive,17,Phone Order,910,910,Tuesday,45.55039763
+2023-02-07 23:00:00,911,3,3,16.59480082,South,Cash,False,Rainy,27.154342182855554,Average,Positive,54,Phone Order,911,911,Tuesday,49.78440246
+2023-02-08 00:00:00,912,1,4,19.27163043,North,Cash,False,Sunny,20.59566811,Average,Positive,47,In Store,912,912,Wednesday,77.08652172
+2023-02-08 01:00:00,913,3,2,16.64733954,East,Credit Card,False,Cloudy,32.59112056,Good,Negative,46,In Store,913,913,Wednesday,33.29467908
+2023-02-08 02:00:00,914,6,1,14.17004903,West,Credit Card,True,Sunny,26.72256271,Average,Negative,21,Phone Order,914,914,Wednesday,14.17004903
+2023-02-08 03:00:00,915,3,1,17.85963354,West,Cash,False,Sunny,29.55039372,Good,unknown,33,Phone Order,915,915,Wednesday,17.85963354
+2023-02-08 04:00:00,916,4,5,15.09869659,South,Credit Card,False,Sunny,23.3185673,Poor,unknown,48,Online Order,916,916,Wednesday,75.49348295
+2023-02-08 05:00:00,917,4,5,11.12178585,South,Credit Card,True,Cloudy,30.15610569,Good,Positive,28,Phone Order,917,917,Wednesday,55.60892926
+2023-02-08 06:00:00,918,7,1,18.28429646,West,Credit Card,False,Sunny,31.58360414,Poor,unknown,33,Phone Order,918,918,Wednesday,18.28429646
+2023-02-08 07:00:00,919,8,3,8.328506912,South,Credit Card,False,Rainy,27.0981978,Excellent,Neutral,40,In Store,919,919,Wednesday,24.98552074
+2023-02-08 08:00:00,920,6,3,15.71961912,East,Credit Card,True,Rainy,29.26590386,Excellent,Negative,31,Phone Order,920,920,Wednesday,47.15885737
+2023-02-08 09:00:00,921,5,5,18.22345182,South,Credit Card,True,Rainy,26.84488886,Excellent,Negative,42,Phone Order,921,921,Wednesday,91.11725912
+2023-02-08 10:00:00,922,2,4,15.9697478,South,Online,False,Cloudy,33.41137054,Good,Negative,33,In Store,922,922,Wednesday,63.87899118
+2023-02-08 11:00:00,923,3,1,15.45913129,West,Cash,True,Sunny,27.46803771,Excellent,Neutral,41,Online Order,923,923,Wednesday,15.45913129
+2023-02-08 12:00:00,924,8,5,16.28957441,West,Credit Card,False,Cloudy,27.154342182855554,Excellent,Positive,33,In Store,924,924,Wednesday,81.44787206
+2023-02-08 13:00:00,925,7,5,11.97582872,North,Cash,True,Sunny,32.02028087,Excellent,unknown,47,In Store,925,925,Wednesday,59.87914362
+2023-02-08 14:00:00,926,0,1,18.11256023,North,Online,False,Rainy,27.154342182855554,Poor,Negative,21,Phone Order,926,926,Wednesday,18.11256023
+2023-02-08 15:00:00,927,5,1,8.051547127,West,Credit Card,False,Sunny,23.45126738,Average,Neutral,43,Phone Order,927,927,Wednesday,8.051547127
+2023-02-08 16:00:00,928,8,3,6.91079624,South,Cash,False,Sunny,26.09123199,Good,Positive,57,Online Order,928,928,Wednesday,20.73238872
+2023-02-08 17:00:00,929,0,4,9.282631702,South,Credit Card,True,Sunny,32.39326064,Excellent,Negative,19,Phone Order,929,929,Wednesday,37.13052681
+2023-02-08 18:00:00,930,6,4,12.97366095,North,Credit Card,False,Cloudy,23.41448804,Poor,Neutral,44,Online Order,930,930,Wednesday,51.89464381
+2023-02-08 19:00:00,931,7,1,12.65842693,North,Credit Card,True,Sunny,27.86654519,Average,Positive,57,Online Order,931,931,Wednesday,12.65842693
+2023-02-08 20:00:00,932,5,2,17.30898137,North,Credit Card,False,Sunny,32.09145122,Average,unknown,22,Online Order,932,932,Wednesday,34.61796273
+2023-02-08 21:00:00,933,5,5,11.06852985,East,Credit Card,False,Sunny,25.30216213,Average,Negative,56,Online Order,933,933,Wednesday,55.34264923
+2023-02-08 22:00:00,934,5,5,12.26516639,East,Credit Card,False,Cloudy,29.63314456,Poor,Negative,26,Phone Order,934,934,Wednesday,61.32583197
+2023-02-08 23:00:00,935,6,1,5.200515249,North,Credit Card,False,Cloudy,23.68447361,Excellent,Negative,56,In Store,935,935,Wednesday,5.200515249
+2023-02-09 00:00:00,936,3,2,11.14608855,South,Online,False,Cloudy,21.63919168,Average,Negative,27,In Store,936,936,Thursday,22.29217709
+2023-02-09 01:00:00,937,6,3,14.71661349,North,Online,True,Sunny,31.91576338,Poor,Neutral,40,Phone Order,937,937,Thursday,44.14984048
+2023-02-09 02:00:00,938,2,1,5.232624959,East,Credit Card,True,Rainy,21.48452935,Poor,Neutral,32,Phone Order,938,938,Thursday,5.232624959
+2023-02-09 03:00:00,939,4,1,9.213229478,South,Credit Card,True,Rainy,24.07072093,Good,Negative,56,Online Order,939,939,Thursday,9.213229478
+2023-02-09 04:00:00,940,7,5,8.119345389,East,Online,False,Rainy,32.82664133,Poor,Positive,34,Phone Order,940,940,Thursday,40.59672695
+2023-02-09 05:00:00,941,6,1,5.629781434,South,Online,False,Sunny,27.154342182855554,Average,Negative,30,In Store,941,941,Thursday,5.629781434
+2023-02-09 06:00:00,942,0,1,12.18890135,East,Online,True,Rainy,34.59568024,Average,unknown,51,Phone Order,942,942,Thursday,12.18890135
+2023-02-09 07:00:00,943,2,1,7.725849398,South,Credit Card,False,Rainy,34.69601502,Poor,Positive,17,Phone Order,943,943,Thursday,7.725849398
+2023-02-09 08:00:00,944,4,5,16.14622309,South,Cash,False,Rainy,24.02414031,Average,Positive,41,Online Order,944,944,Thursday,80.73111547
+2023-02-09 09:00:00,945,3,3,17.71891826,South,Cash,False,Sunny,20.61467333,Poor,unknown,29,Online Order,945,945,Thursday,53.15675477
+2023-02-09 10:00:00,946,0,3,13.18377774,South,Cash,True,Rainy,30.57594926,Average,Positive,48,Online Order,946,946,Thursday,39.55133322
+2023-02-09 11:00:00,947,7,1,19.72561014,West,Cash,True,Rainy,26.76479754,Good,unknown,59,Online Order,947,947,Thursday,19.72561014
+2023-02-09 12:00:00,948,0,5,11.75717857,East,Credit Card,True,Sunny,21.51129266,Excellent,Neutral,36,In Store,948,948,Thursday,58.78589286
+2023-02-09 13:00:00,949,4,3,12.70052315,East,Cash,True,Cloudy,30.61284228,Good,unknown,54,Phone Order,949,949,Thursday,38.10156946
+2023-02-09 14:00:00,950,0,3,19.83826631,West,Online,True,Rainy,20.46762364,Good,unknown,37,Phone Order,950,950,Thursday,59.51479893
+2023-02-09 15:00:00,951,1,3,8.473226539,South,Online,False,Cloudy,33.05295036,Excellent,Negative,18,Online Order,951,951,Thursday,25.41967962
+2023-02-09 16:00:00,952,8,5,19.1381891,South,Cash,False,Rainy,22.07978794,Average,Positive,55,In Store,952,952,Thursday,95.69094548
+2023-02-09 17:00:00,953,3,5,5.642563327,East,Online,False,Sunny,21.90967818,Excellent,Positive,37,In Store,953,953,Thursday,28.21281663
+2023-02-09 18:00:00,954,4,1,11.69580335,West,Credit Card,False,Cloudy,22.63508447,Poor,Positive,23,Phone Order,954,954,Thursday,11.69580335
+2023-02-09 19:00:00,955,0,4,6.050052682,South,Cash,True,Cloudy,34.40399538,Excellent,Positive,38,Online Order,955,955,Thursday,24.20021073
+2023-02-09 20:00:00,956,8,3,15.93852114,South,Cash,True,Cloudy,30.3975404,Good,Positive,35,Phone Order,956,956,Thursday,47.81556343
+2023-02-09 21:00:00,957,8,4,14.12613404,South,Credit Card,False,Cloudy,32.02057303,Excellent,Neutral,55,Phone Order,957,957,Thursday,56.50453615
+2023-02-09 22:00:00,958,0,5,15.59951395,North,Online,True,Rainy,25.96452479,Average,Positive,30,In Store,958,958,Thursday,77.99756976
+2023-02-09 23:00:00,959,7,5,10.617206,West,Credit Card,False,Rainy,25.04469091,Good,unknown,39,In Store,959,959,Thursday,53.08603
+2023-02-10 00:00:00,960,1,5,10.54222901,South,Credit Card,False,Cloudy,23.5172601,Poor,Neutral,40,Phone Order,960,960,Friday,52.71114505
+2023-02-10 01:00:00,961,6,4,5.679789184,North,Online,False,Rainy,27.20972042,Average,Neutral,59,Online Order,961,961,Friday,22.71915674
+2023-02-10 02:00:00,962,1,5,10.24917409,West,Credit Card,False,Cloudy,28.277431,Good,Positive,23,Online Order,962,962,Friday,51.24587046
+2023-02-10 03:00:00,963,0,1,18.93932603,South,Online,True,Cloudy,29.47662265,Poor,Positive,29,Phone Order,963,963,Friday,18.93932603
+2023-02-10 04:00:00,964,3,5,10.68839806,East,Online,False,Sunny,23.85677756,Average,Positive,53,Phone Order,964,964,Friday,53.44199029
+2023-02-10 05:00:00,965,6,2,17.47051559,North,Credit Card,True,Cloudy,34.22981121,Poor,unknown,47,Online Order,965,965,Friday,34.94103119
+2023-02-10 06:00:00,966,4,4,17.63488257,North,Online,False,Rainy,22.54637747,Excellent,Negative,15,Online Order,966,966,Friday,70.53953028
+2023-02-10 07:00:00,967,1,2,10.59861735,South,Credit Card,False,Cloudy,34.48479762,Excellent,Positive,19,Online Order,967,967,Friday,21.19723469
+2023-02-10 08:00:00,968,0,5,14.47983021,South,Online,False,Sunny,20.22284184,Poor,Neutral,23,Phone Order,968,968,Friday,72.39915103
+2023-02-10 09:00:00,969,1,1,6.430574034,North,Cash,False,Rainy,27.21688538,Excellent,Positive,58,In Store,969,969,Friday,6.430574034
+2023-02-10 10:00:00,970,6,3,6.555178711,East,Online,True,Sunny,25.00051757,Poor,Neutral,20,Online Order,970,970,Friday,19.66553613
+2023-02-10 11:00:00,971,2,5,5.729864955,East,Online,False,Sunny,26.73685121,Average,unknown,42,Online Order,971,971,Friday,28.64932477
+2023-02-10 12:00:00,972,1,1,13.7152264,West,Credit Card,True,Cloudy,28.55996868,Good,Neutral,59,Online Order,972,972,Friday,13.7152264
+2023-02-10 13:00:00,973,4,4,11.39106466,South,Online,False,Sunny,27.154342182855554,Poor,Positive,40,Phone Order,973,973,Friday,45.56425866
+2023-02-10 14:00:00,974,4,2,13.22048535,East,Cash,False,Sunny,26.22270275,Good,Positive,42,In Store,974,974,Friday,26.4409707
+2023-02-10 15:00:00,975,5,2,12.81609786,West,Cash,False,Rainy,30.99085123,Good,Neutral,54,In Store,975,975,Friday,25.63219572
+2023-02-10 16:00:00,976,1,2,10.25304487,East,Online,True,Sunny,30.28814413,Poor,unknown,29,Online Order,976,976,Friday,20.50608973
+2023-02-10 17:00:00,977,7,4,15.16210122,South,Online,False,Cloudy,27.154342182855554,Excellent,unknown,20,Phone Order,977,977,Friday,60.64840489
+2023-02-10 18:00:00,978,8,1,16.37752821,West,Cash,False,Cloudy,23.74938472,Average,Negative,41,In Store,978,978,Friday,16.37752821
+2023-02-10 19:00:00,979,8,4,5.219423883,West,Credit Card,False,Cloudy,29.14292765,Good,Neutral,52,Phone Order,979,979,Friday,20.87769553
+2023-02-10 20:00:00,980,8,2,8.108634497,West,Cash,False,Sunny,27.154342182855554,Average,Positive,18,In Store,980,980,Friday,16.21726899
+2023-02-10 21:00:00,981,2,5,15.69853802,East,Cash,False,Rainy,25.54606716,Good,Neutral,25,Online Order,981,981,Friday,78.49269011
+2023-02-10 22:00:00,982,5,3,10.79930259,South,Online,True,Cloudy,27.29086313,Poor,Negative,35,Phone Order,982,982,Friday,32.39790777
+2023-02-10 23:00:00,983,2,4,14.9372592,West,Online,True,Sunny,27.154342182855554,Excellent,Positive,44,Online Order,983,983,Friday,59.74903682
+2023-02-11 00:00:00,984,1,4,10.2044399,North,Cash,False,Cloudy,22.12766596,Average,Neutral,32,In Store,984,984,Saturday,40.81775958
+2023-02-11 01:00:00,985,1,1,10.86132728,South,Credit Card,False,Cloudy,23.20701816,Good,Neutral,49,In Store,985,985,Saturday,10.86132728
+2023-02-11 02:00:00,986,1,1,7.380183105,North,Cash,True,Rainy,21.5827047,Poor,Negative,17,Online Order,986,986,Saturday,7.380183105
+2023-02-11 03:00:00,987,3,4,8.873465295,North,Cash,False,Cloudy,27.154342182855554,Poor,Neutral,26,In Store,987,987,Saturday,35.49386118
+2023-02-11 04:00:00,988,8,2,14.08117636,West,Credit Card,True,Rainy,29.9109109,Good,Positive,41,Online Order,988,988,Saturday,28.16235273
+2023-02-11 05:00:00,989,3,3,11.49744667,West,Cash,False,Sunny,34.25909557,Good,Negative,44,Online Order,989,989,Saturday,34.49234001
+2023-02-11 06:00:00,990,5,1,16.61454024,East,Cash,False,Cloudy,30.9451762,Good,Negative,35,Online Order,990,990,Saturday,16.61454024
+2023-02-11 07:00:00,991,2,2,17.78877432,East,Online,True,Sunny,20.78068758,Excellent,Positive,52,In Store,991,991,Saturday,35.57754865
+2023-02-11 08:00:00,992,8,5,13.12469627,East,Credit Card,False,Sunny,33.26367761,Good,Negative,35,Phone Order,992,992,Saturday,65.62348137
+2023-02-11 09:00:00,993,3,1,16.37400938,South,Online,True,Sunny,32.94012744,Good,Neutral,52,Online Order,993,993,Saturday,16.37400938
+2023-02-11 10:00:00,994,3,2,9.603567698,East,Online,True,Cloudy,26.64980481,Excellent,Neutral,54,Phone Order,994,994,Saturday,19.2071354
+2023-02-11 11:00:00,995,0,2,11.22456823,North,Credit Card,True,Rainy,28.78794576,Poor,Negative,29,In Store,995,995,Saturday,22.44913646
+2023-02-11 12:00:00,996,3,3,15.69166514,East,Credit Card,False,Cloudy,34.64117499,Good,Positive,32,In Store,996,996,Saturday,47.07499543
+2023-02-11 13:00:00,997,7,3,10.79317989,West,Cash,True,Sunny,27.98456546,Average,unknown,43,Phone Order,997,997,Saturday,32.37953968
+2023-02-11 14:00:00,998,7,5,13.82757403,East,Online,True,Rainy,33.57982743,Poor,Positive,52,Online Order,998,998,Saturday,69.13787014
+2023-02-11 15:00:00,999,2,2,7.780591686,South,Credit Card,False,Sunny,21.24558137,Average,Neutral,35,In Store,999,999,Saturday,15.56118337
